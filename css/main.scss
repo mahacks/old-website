@@ -1,0 +1,36 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import "proxima-nova";
+
+$font-family-sans-serif: "Proxima Nova", "Helvetica Neue", sans-serif;
+$jumbotron-bg: #FFFFFF;
+$brand-primary: rgba(17, 113, 119, 0.63);
+$brand-success: rgba(0, 189, 255, 0.63);
+$btn-border-radius-base: 90px;
+$btn-default-bg: rgba(20, 184, 194, 0.63);
+$btn-default-font-weight: 400;
+
+$font-size-h1: 3.5em !important;
+
+@import "bootstrap";
+@import "text-align";
+
+.jumbotron {
+  h1 {
+    color: $brand-primary !important;
+    font-weight: 400 !important;
+  }
+  p {
+    color: #6B6B6B !important;
+    font-weight: 600;
+  }
+  .btn {
+    font-size: 2em !important;
+    color: #FFFFFF;
+    width: 150px;
+    margin-left: 10px;
+    border: none;
+  }
+}
