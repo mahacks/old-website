@@ -4,6 +4,18 @@
 @charset "utf-8";
 @import "proxima-nova";
 
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+    -moz-box-shadow:inset $top $left $blur $color;
+    box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+  }
+}
+
 $font-family-sans-serif: "Proxima Nova", "Helvetica Neue", sans-serif;
 $jumbotron-bg: #FFFFFF;
 $brand-primary: rgba(17, 113, 119, 0.63);
@@ -13,24 +25,70 @@ $btn-default-bg: rgba(20, 184, 194, 0.63);
 $btn-default-font-weight: 400;
 
 $font-size-h1: 3.5em !important;
+$font-size-h2: 7vw;
+
+p {
+  font-weight: 400 !important;
+}
 
 @import "bootstrap";
 @import "text-align";
+@import "hero";
+@import "numbers";
 
-.jumbotron {
-  h1 {
-    color: $brand-primary !important;
-    font-weight: 400 !important;
+$polygon: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+$polygon-reverse: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+
+.rhomb1 {
+  background: url(/assets/rhomb1.svg) no-repeat top left;
+  // @include box-shadow(0px, 0px, 10px, #000000, true);
+  background-size: cover;
+  color: #FFFFFF;
+  h2 {
+    font-weight: 600;
+    margin: 0;
   }
   p {
-    color: #6B6B6B !important;
-    font-weight: 600;
-  }
-  .btn {
     font-size: 2em !important;
-    color: #FFFFFF;
-    width: 150px;
-    margin-left: 10px;
-    border: none;
   }
+}
+
+.rhomb2 {
+  background-color: $brand-success;
+  h3 {
+    font-weight: 600;
+    margin: 0;
+    font-size: 4em;
+  }
+  ul {
+    margin: 20px;
+    color: #262626;
+    width: 80%;
+    .list-group-item-heading {
+      font-weight: 600;
+      font-size: 2em;
+    }
+    .list-group-item-text {
+      font-size: 1.5em;
+    }
+  }
+}
+
+.section {
+  margin: 0;
+  margin-top: -48px;
+  color: #FFFFFF;
+  .row {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+}
+
+.poly {
+  -webkit-clip-path: $polygon;
+  clip-path: $polygon;
+}
+.poly2 {
+  -webkit-clip-path: $polygon-reverse;
+  clip-path: $polygon-reverse;
 }

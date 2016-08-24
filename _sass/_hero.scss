@@ -1,0 +1,17 @@
+.hero {
+  h1 {
+    color: $brand-primary !important;
+    font-weight: 400 !important;
+  }
+  p {
+    color: #6B6B6B !important;
+    font-weight: 600;
+  }
+  .btn {
+    font-size: 2em !important;
+    color: #FFFFFF;
+    width: 150px;
+    margin-left: 10px;
+    border: none;
+  }
+}

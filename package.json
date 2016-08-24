@@ -1,0 +1,25 @@
+{
+  "name": "mahacks.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahacks/mahacks.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahacks/mahacks.github.io/issues"
+  },
+  "homepage": "https://github.com/mahacks/mahacks.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2",
+    "lodash": "^4.15.0"
+  }
+}

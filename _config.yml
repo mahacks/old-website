@@ -26,3 +26,5 @@ github_username:  mahacks
 markdown: kramdown
 sass:
   sass_dir: _sass
+
+exclude: [node_modules, gulpfile.js]
