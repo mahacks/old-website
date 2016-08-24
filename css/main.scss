@@ -59,19 +59,6 @@ $polygon-reverse: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
   }
 }
 
-.faq {
-  margin: 20px;
-  color: #262626;
-  width: 80%;
-  .list-group-item-heading {
-    font-size: 1.8em;
-    font-weight: 600;
-  }
-  .list-group-item-text {
-    font-size: 1.4em;
-  }
-}
-
 .rhomb1 {
   background: url(/assets/rhomb1.svg) no-repeat top left;
   // @include box-shadow(0px, 0px, 10px, #000000, true);
@@ -108,6 +95,10 @@ $polygon-reverse: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
   }
 }
 
+.rhomb5 {
+  background-color: rgba(20, 74, 194, 0.8);
+}
+
 .poly {
   -webkit-clip-path: $polygon;
   clip-path: $polygon;
@@ -115,4 +106,22 @@ $polygon-reverse: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
 .poly2 {
   -webkit-clip-path: $polygon-reverse;
   clip-path: $polygon-reverse;
+}
+
+.faq {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.faqItem {
+  display: inline-block;
+  flex-basis: 30%;
+  margin: 1em;
+  h4 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+  }
 }
