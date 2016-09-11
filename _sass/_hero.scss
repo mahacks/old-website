@@ -1,4 +1,5 @@
 .hero {
+  position: relative;
   h1 {
     color: $brand-primary !important;
     font-weight: 400 !important;
@@ -13,5 +14,16 @@
     width: 150px;
     margin-left: 10px;
     border: none;
+  }
+  .bigvid {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.1;
+  }
+  .container {
+    z-index: 200;
   }
 }
