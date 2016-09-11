@@ -36,8 +36,8 @@ p {
 @import "hero";
 @import "numbers";
 
-$polygon: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
-$polygon-reverse: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+$polygon: polygon(0 0, 100% 50px, 100% 100%, 0 calc(100% - 50px));
+$polygon-reverse: polygon(0 50px, 100% 0, 100% calc(100% - 50px), 0 100%);
 
 .section {
   margin: 0;
@@ -128,12 +128,12 @@ $polygon-reverse: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
   }
 }
 
-@media (min-width: 410px) {
+@media (min-width: 610px) {
   .faqItem {
     flex-basis: 30%;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .faqItem {
     flex-basis: 100%;
   }
