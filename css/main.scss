@@ -16,6 +16,10 @@
   }
 }
 
+body {
+  overflow-x: hidden;
+}
+
 $font-family-sans-serif: "Proxima Nova", "Helvetica Neue", sans-serif;
 $jumbotron-bg: #FFFFFF;
 $brand-primary: rgba(17, 113, 119, 0.63);
