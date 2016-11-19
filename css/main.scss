@@ -106,6 +106,16 @@ $polygon-reverse: polygon(0 50px, 100% 0, 100% calc(100% - 50px), 0 100%);
   background-color: rgba(91, 20, 194, 0.8);
 }
 
+.rhomb7 {
+  background-color: rgba(20, 194, 90, 0.8);
+  .btn {
+      text-align: center;
+      width: 200px;
+      font-size: 2em;
+  }
+}
+
+
 .poly {
   -webkit-clip-path: $polygon;
   clip-path: $polygon;
