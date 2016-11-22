@@ -76,6 +76,19 @@ $polygon-reverse: polygon(0 50px, 100% 0, 100% calc(100% - 50px), 0 100%);
     font-size: 2em !important;
   }
 }
+.list-group-item-heading {
+  font-weight: 600;
+  font-size: 2em;
+  margin: 0;
+}
+.list-group-item {
+  figure {
+    margin-right: 1em;
+  }
+}
+.badge {
+  font-size: 1.2em;
+}
 
 .rhomb2 {
   background-color: $brand-success;
