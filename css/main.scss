@@ -132,6 +132,7 @@ $polygon-reverse: polygon(0 50px, 100% 0, 100% calc(100% - 50px), 0 100%);
 
 .rhomb7 {
   background-color: rgba(20, 194, 90, 0.8);
+  z-index: 0;
   .btn {
       text-align: center;
       width: 200px;
@@ -180,5 +181,8 @@ $polygon-reverse: polygon(0 50px, 100% 0, 100% calc(100% - 50px), 0 100%);
 @media (max-width: 600px) {
   .faqItem {
     flex-basis: 100%;
+  }
+  .rhomb7 {
+    margin-top: 15px;
   }
 }
