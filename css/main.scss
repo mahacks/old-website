@@ -18,6 +18,7 @@
 
 body {
   overflow-x: hidden;
+  padding-top: 70px;
 }
 
 $font-family-sans-serif: "Proxima Nova", "Helvetica Neue", sans-serif;
@@ -45,6 +46,11 @@ $polygon-reverse: polygon(0 50px, 100% 0, 100% calc(100% - 50px), 0 100%);
 
 #map {
   width: 100%;
+}
+.site-title {
+  font-weight: bold;
+  color: $gray;
+  font-size: 2em;
 }
 
 .section {
