@@ -21,6 +21,10 @@ body {
   padding-top: 70px;
 }
 
+.nomargin {
+  margin: 0 !important;
+  padding: 0;
+}
 $font-family-sans-serif: "Proxima Nova", "Helvetica Neue", sans-serif;
 $jumbotron-bg: #FFFFFF;
 $brand-primary: rgba(17, 113, 119, 0.63);
