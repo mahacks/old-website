@@ -8,11 +8,11 @@ h2 {
 }
 
 h3 {
-	font-size: 2.75rem;
+	font-size: 2.85rem;
 }
 
 .row {
-	margin: 2rem 0;
+	margin: 3rem 0;
 }
 
 .img-wrap {
@@ -28,14 +28,16 @@ h3 {
 .hover-text {
 	position: absolute;
 	top: 0;
-	left: 0;
+	width: 80%;
+	left: 10%;
 	right: 0;
 	bottom: 0;
-	margin: 0;
+	margin: 50% 0 0;
 	padding: 1.5rem;
 	background: rgba(91,20,194,0.7);
 	color: #fff;
-	font-size: 1.15rem;
+	font-size: 2rem;
+	font-weight: bold;
 	text-transform: uppercase;
 	transition: .15s;
 	visibility: hidden;
@@ -44,7 +46,8 @@ h3 {
 
 .hover-text a {
 	text-decoration: none;
-	padding: .85rem .75rem;
+	color: #fff;
+	font-weight: bold;
 }
 
 .img-wrap:hover .hover-text {
