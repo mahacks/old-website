@@ -1,0 +1,30 @@
+.img-wrap {
+	position: relative;
+	text-align: center;
+	display: inline-block;
+}
+
+.hover-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 1.5rem;
+	background: rgba(91,20,194,0.7);
+	color: #fff;
+	font-size: 1.15rem;
+	text-transform: uppercase;
+	transition: .15s;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.hover-text a {
+	text-decoration: none;
+	padding: .85rem .75rem;
+}
+
+.img-wrap:hover .hover-text {
+	opacity: 1;
+	visibility: visible;
+}
