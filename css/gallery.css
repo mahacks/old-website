@@ -3,24 +3,34 @@ h2, h3 {
 	text-align: center;
 }
 
+h2 {
+	padding: 10rem 0 6rem;
+}
+
 h3 {
-	font-size: 2.5rem;
+	font-size: 2.75rem;
+}
+
+.row {
+	margin: 2rem 0;
 }
 
 .img-wrap {
 	position: relative;
 	text-align: center;
-	display: inline-block;
+	display: block;
 }
 
 .img-wrap img {
-	max-width: 100%;
+	width: 80%;
 }
 
 .hover-text {
 	position: absolute;
 	top: 0;
 	left: 0;
+	right: 0;
+	bottom: 0;
 	margin: 0;
 	padding: 1.5rem;
 	background: rgba(91,20,194,0.7);
