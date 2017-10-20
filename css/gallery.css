@@ -1,7 +1,20 @@
+h2, h3 {
+	font-weight: bold;
+	text-align: center;
+}
+
+h3 {
+	font-size: 2.5rem;
+}
+
 .img-wrap {
 	position: relative;
 	text-align: center;
 	display: inline-block;
+}
+
+.img-wrap img {
+	max-width: 100%;
 }
 
 .hover-text {
