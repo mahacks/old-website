@@ -61,3 +61,17 @@ h3 {
 	opacity: 1;
 	visibility: visible;
 }
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 4rem 0;
+}
+
+.gallery img {
+	width: 100%;
+}
+
+.gallery article {
+	margin: 1rem 0;
+}
