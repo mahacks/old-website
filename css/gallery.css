@@ -38,6 +38,7 @@ h3 {
 	transition: .15s;
 	visibility: hidden;
 	opacity: 0;
+	font-size: 2.25rem;
 }
 
 .hover-text a {
@@ -52,7 +53,6 @@ h3 {
 .hover-text p {
 	padding-top: 30%;
 	color: #fff;
-	font-size: 2.25rem;
 	font-weight: bold;
 	text-transform: uppercase;
 }
