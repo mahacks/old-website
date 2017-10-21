@@ -1,7 +1,18 @@
 ---
 layout: gallery
+title: Winter 2016
 ---
 
 <div class="jumbotron rhomb1 section poly">
 	<h2>Local Hack Day 2016</h2>
 </div>
+
+<section class="container">
+	{% for image in site.static_files %}
+	{% if image.path contains 'assets/2016-winter' %}
+		<article class="col-md-4">
+			<img src="{{ site.baseurl }}{{ image.path }}" alt="Local Hack Day 2016">
+		</article>
+	{% endif %}
+	{% endfor %}
+</section>

@@ -32,11 +32,11 @@ h3 {
 	left: 10%;
 	right: 0;
 	bottom: 0;
-	margin: 50% 0 0;
+	margin: 0;
 	padding: 1.5rem;
 	background: rgba(91,20,194,0.7);
 	color: #fff;
-	font-size: 2rem;
+	font-size: 2.25rem;
 	font-weight: bold;
 	text-transform: uppercase;
 	transition: .15s;
@@ -48,6 +48,13 @@ h3 {
 	text-decoration: none;
 	color: #fff;
 	font-weight: bold;
+	padding-top: 50%;
+	display: block;
+	height: 100%;
+}
+
+.hover-text p {
+	padding-top: 50%;
 }
 
 .img-wrap:hover .hover-text {

@@ -1,5 +1,6 @@
 ---
 layout: gallery
+title: Spring 2017
 ---
 
 <div class="jumbotron rhomb1 section poly">
@@ -7,5 +8,11 @@ layout: gallery
 </div>
 
 <section class="container">
-	
+	{% for image in site.static_files %}
+	{% if image.path contains 'assets/2017-spring' %}
+		<article class="col-md-4">
+			<img src="{{ site.baseurl }}{{ image.path }}" alt="MAHacks Spring 2017">
+		</article>
+	{% endif %}
+	{% endfor %}
 </section>
