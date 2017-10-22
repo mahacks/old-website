@@ -200,3 +200,15 @@ $polygon-reverse: polygon(0 50px, 100% 0, 100% calc(100% - 50px), 0 100%);
     margin-top: 10px;
   }
 }
+
+.nav-link {
+  font-weight: bold;
+  color: rgba(91, 20, 194, 0.8);
+  font-size: 1.75em;
+  padding-top: 1.15rem;
+}
+
+.nav-right {
+  position: absolute;
+  right: 1rem;
+}
