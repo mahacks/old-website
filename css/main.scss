@@ -34,7 +34,7 @@ $btn-default-bg: rgba(20, 184, 194, 0.63);
 $btn-default-font-weight: 400;
 
 $font-size-h1: 3.5em !important;
-$font-size-h2: 5em;
+$font-size-h2: 4em;
 
 p {
   font-weight: 400 !important;
@@ -180,13 +180,12 @@ $polygon-reverse: polygon(0 50px, 100% 0, 100% calc(100% - 50px), 0 100%);
 .faqItem {
   display: inline-block;
   margin: 1em;
+    h4 {
+      text-align: center;
+      font-size: 2em;
+      font-weight: 600;
+    }
 }
-
-h4 {
-    text-align: center;
-    font-size: 2em;
-    font-weight: 600;
-  }
 
 @media (min-width: 610px) {
   .faqItem {
