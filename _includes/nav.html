@@ -1,15 +1,15 @@
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-    <a class="site-title" href="{{ site.baseurl }}/"><img src="/assets/ma.png" width="70" height="70">hacks</a>
-    </div>
-    <div class="collapse navbar-collapse">
+  <nav>
+    <ul class="left">
+      <a href="/">
+        <img class="logo" src="{{ 'img/logo.png' | prepend: site.baseurl }}" alt=""><span class="hacks">HACKS</span>
+      </a>
+    </ul>
 
-    <p class="nav-right">
-      <a href="{{ 'past-events' | prepend: site.baseurl }}" class="nav-link">Past Events</a>
-      <a href="https://www.facebook.com/mahacks" class="navbar-link"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
-    </p>
-
-  </ul>
-  </div>
-</nav>
+    <ul class="right">
+      <li><a href="{{ 'about' | prepend: site.baseurl }}">About</a></li>
+      <li><a href="{{ 'past-events' | prepend: site.baseurl }}">Past Events</a></li>
+      <li><a href="{{ 'register' | prepend: site.baseurl }}">Register</a></li>
+      <li><a href="{{ 'mentor' | prepend: site.baseurl }}">Mentor</a></li>
+      <li><a href="{{ 'sponsor' | prepend: site.baseurl }}">Sponsor</a></li>
+    </ul>
+  </nav>

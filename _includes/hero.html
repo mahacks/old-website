@@ -3,16 +3,16 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
-          <img class="center-block" src="assets/logo.svg" />
+          <img class="center-block" src="{{ 'img/logo-hacks.png' | prepend: site.baseurl }}" />
       </div>
       <div class="col-sm-8 text-right-not-xs text-center-xs">
         <h1>New England's Bi-Annual High School Hackathon</h1>
-        <h4 style="font-size: 2em; margin: .75em 0; line-height: 140%;">February 24, 2018<br>
-            Upstatement, 133 Portland St<br>
+        <h4 style="font-size: 2em; margin: .75em 0; line-height: 140%;">Fall 2018<br>
             Boston, MA</h4>
         <div class="pull-right">
-          <a class="btn btn-success" href="http://my.mahacks.com">Register</a>
-          <a class="btn btn-default" href="https://mahacks1.typeform.com/to/DSIPWP" role="button">Sponsor</a>
+          <a class="btn btn-success" href="{{ 'register' | prepend: site.baseurl }}">Register</a>
+          <a class="btn btn-success" href="{{ 'mentor' | prepend: site.baseurl }}">Mentor</a>
+          <a class="btn btn-default" href="{{ 'sponsor' | prepend: site.baseurl }}" role="button">Sponsor</a>
         </div>
       </div>
     </div>

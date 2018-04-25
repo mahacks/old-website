@@ -40,10 +40,6 @@ p {
   font-weight: 400 !important;
 }
 
-.nav {
-  padding-right: 10px;
-}
-
 @import "bootstrap";
 @import "text-align";
 @import "hero";
@@ -201,19 +197,6 @@ $polygon-reverse: polygon(0 50px, 100% 0, 100% calc(100% - 50px), 0 100%);
   }
 }
 
-.nav-link {
-  font-weight: bold;
-  color: rgba(91, 20, 194, 0.8);
-  font-size: 1.75em;
-  margin-right: 1rem;
-}
-
-.nav-right {
-  position: absolute;
-  right: 1.5rem;
-  top: 1.5rem;
-}
-
 .jumbotron p a, .jumbotron p a:hover, .jumbotron p a:active {
   color: #fff;
   text-decoration: underline;
@@ -222,4 +205,60 @@ $polygon-reverse: polygon(0 50px, 100% 0, 100% calc(100% - 50px), 0 100%);
 .map {
   width: 100%;
   height: 300px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: .75rem 1.5rem .5rem 2rem;
+  border-bottom: 1px solid #aaa;
+  position: fixed;
+  width: 100%;
+}
+
+.left { float: left; }
+.right { float: right; padding-right: 1rem; }
+
+nav .logo {
+  height: 50px;
+  width: auto;
+  display: inline-block;
+}
+
+.hacks {
+  vertical-align: top;
+  display: inline-block;
+  padding-top: .5rem;
+  padding-left: .35rem;
+  font: 700 2rem Raleway;
+  text-decoration: none;
+  color: ;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  padding: .9rem .5rem;
+}
+
+nav a {
+  display: inline-block;
+  padding-bottom: 2.5px;
+  font: 400 1.35rem Raleway;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: -.75px;
+  text-decoration: none;
+  transition :.2s;
+  border: 2.5px solid transparent;
+}
+
+nav a:hover, nav a:active {
+  border-bottom: 2.5px solid #7c43ce;
 }
