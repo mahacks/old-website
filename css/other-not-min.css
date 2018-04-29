@@ -64,3 +64,17 @@ nav a:hover, nav a:active {
 nav .left a:hover, nav .left a:active {
   border-bottom: 3px solid transparent;
 }
+
+@media (max-width: 600px) {
+  nav {
+    text-align: center;
+    position: static;
+  }
+  nav li {
+    display: block;
+  }
+  .left, .right {
+    display: block;
+    float: none;
+  }
+}
