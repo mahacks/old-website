@@ -34,7 +34,9 @@ nav .logo {
   text-decoration: none;
 }
 
-.hacks
+.center-block {
+  width: 100%;
+}
 
 nav li {
   display: inline-block;
