@@ -7,10 +7,12 @@
 }
 
 nav {
-  padding: .75rem 1.5rem .5rem 2rem;
+  padding: 1rem 1.5rem 0 2rem;
   border-bottom: 1px solid #aaa;
   position: fixed;
+  top: 0;
   width: 100%;
+  z-index: 10000;
 }
 
 .left { float: left; }
@@ -27,10 +29,11 @@ nav .logo {
   display: inline-block;
   padding-top: .5rem;
   padding-left: .35rem;
-  font: 700 2rem Raleway;
+  font: 700 2.5rem Raleway;
   text-decoration: none;
-  color: ;
 }
+
+.hacks
 
 nav li {
   display: inline-block;
@@ -41,15 +44,20 @@ nav li {
 nav a {
   display: inline-block;
   padding-bottom: 2.5px;
-  font: 400 1.35rem Raleway;
+  font: 400 2.25rem Raleway;
   color: #222;
   text-transform: uppercase;
   letter-spacing: -.75px;
   text-decoration: none;
   transition :.2s;
-  border: 2.5px solid transparent;
+  border: 3px solid transparent;
 }
 
 nav a:hover, nav a:active {
-  border-bottom: 2.5px solid #7c43ce;
+  border-bottom: 3px solid #7c43ce;
+  text-decoration: none !important;
+}
+
+nav .left a:hover, nav .left a:active {
+  border-bottom: 3px solid transparent;
 }

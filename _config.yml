@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MAHacks III
+title: MAHacks
 email: info@mahacks.com
 description: > # this means to ignore newlines until "baseurl:"
   MAHacks is a Boston-area hackathon run for high schoolers, by high schoolers. Join us on January 13, 2018!
