@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-<section class="container">
+<div class="container">
 
 ## What Makes Us Different
 
@@ -97,4 +97,4 @@ I’m a sophomore at Winchester High School and I’m extremely passionate about
 
 Others coming soon!
 
-</section>
+</div>
