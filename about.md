@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-<div class="container">
+<div class="container" markdown="1">
 
 ## What Makes Us Different
 
