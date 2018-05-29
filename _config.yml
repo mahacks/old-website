@@ -16,7 +16,7 @@
 title: MAHacks
 email: info@mahacks.com
 description: > # this means to ignore newlines until "baseurl:"
-MAHacks is a Boston-area hackathon run for high schoolers, by high schoolers. Join us during Fall 2018!
+  MAHacks is a Boston-area hackathon run for high schoolers, by high schoolers. Join us during Fall 2018!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mahacks.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ma_hacks
