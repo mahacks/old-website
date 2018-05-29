@@ -1,0 +1,113 @@
+---
+---
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+  {% include header.html title="MAHacks | Home" %}
+    <section class="hero is-small is-primary has-bg-img">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-gapless">
+            <div class="column"><img src="images/logo-hacks.png" width="360" height="301"></div>
+            <div class="column has-text-centered">
+              <h1 class="title is-1 main-title-color">New England's Bi-Annual High School Hackathon</h1>
+              <h2 class="subtitle is-3 main-subtitle-color">Fall 2018 | Boston, MA</h2>
+              <a class="button main-button-color is-rounded is-outlined" href="/register">Register</a>
+              <a class="button main-button-color is-rounded is-outlined" href="/mentor">Mentor</a>
+              <a class="button main-button-color is-rounded is-outlined" href="/sponsor">Sponsor</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section blue-section">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <h1 class="title is-1 has-text-white">Where technology meets entrepreneurship</h1>
+          </div>
+          <div class="column">
+            <h2 class="subtitle is-3 has-text-white">We believe in sustainable, long-term projects that solve community problems. We want your hacks to grow beyond our events and create real impact, and we'll help you get there.</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section green-section">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <h1 class="title is-1 has-text-white">About MAHacks</h1>
+            <p class="is-size-5 has-text-white">
+              MAHacks is run for high schoolers, by high schoolers. Our goal is to bring together <b>entrepreneurial-minded</b> and <b>tech-savvy</b> students to form projects that last beyond our event. We want to provide new <b>opportunities</b> for all our participants (with some awesome swag on the side!)
+            </p>
+            <br>
+            <p class="is-size-5 has-text-white">
+              In the past, we've held events at MIT, Canopy Coworking City, and Upstatement. We hope you'll join us for MAHacks IV!
+            </p>
+            <h1 class="title is-1 has-text-white">Introducing Tracks</h1>
+            <p class="is-size-5 has-text-white">
+              At MAHacks III, you could submit your project in one of our tracks and win the opportunity to meet with professionals in the field that will provide mentorship for growing your hacks into real products and ventures. Our tracks address real problems in the community.
+            </p>
+          </div>
+          <div class="column">
+            {% include track.html name="Health" description="Help solve a problem in the medical industry and you could win the chance to continue your project with Boston Children's Hospital! More information coming soon." %}
+            {% include track.html name="Education" description="Being high school students ourselves, education is a huge part of our lives. How can we improve current education technologies? How can we get people excited about learning? More information coming soon." %}
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section purple-section">
+      <div class="container">
+        <h1 class="title is-1 has-text-white">FAQ</h1>
+        <div class="columns">
+          <div class="column">
+            {% include question.html question="What's a hackathon?" answer="A hackathon is a coding event where students and developers work together to create products and designs. There will be a lot of free stuff, free food, and prizes!" %}
+            {% include question.html question="What if I've never coded before?" answer="We’ll have workshops to teach anyone the basics of coding - but it’s not required. Teams often need designers, artists, writers and anyone who can contribute. Most teams actually benefit from non-programmers!" %}
+            {% include question.html question="I don’t have an idea?" answer="Most people come to hackathons with no idea what they’re going to do, and that’s totally fine. We’ll be demoing many company API's and hardware, and you can work with their products!" %}
+          </div>
+          <div class="column">
+             {% include question.html question="Who can come?" answer="Any high schooler interested is welcome, regardless of skill level! Middle school students are allowed on a case-by-case basis. Unfortunately, we cannot allow parents or teacher chaperones at our venue during the event." %}
+             {% include question.html question="How do teams work?" answer="Each team is capped at four members. Each team has the option to submit their project for judging." %}
+             {% include question.html question="What should I bring?" answer="You need a photo ID and something to hack with (like your laptop) and its charger. And most importantly, bring friends!" %}
+          </div>
+          <div class="column">
+            {% include question.html question="How much will it cost?" answer="Nothing. Period. There will be workshops, prizes, free swag, free food, and lots of fun, at zero cost to you." %}
+            {% include question.html question="I don’t have a team?" answer="For the first couple of hours, we will help you network with other students. You can find people you want to work with and make a team on the day of!" %}
+            {% include question.html question="What if I have another question?" answer="Feel free to email us at info [at] mahacks.com, and we’ll get back to you as soon as possible!" %}
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section red-section">
+      <div class="container">
+        <h1 class="title is-1 has-text-white">Sponsors</h1>
+        <div class="columns">
+          <div class="column">
+            <!-- I really wish I could iterate through this with a YAML file or something, but GitHub only has a few supported Jekyll plugins so that isn't possible -->
+            {% include sponsor.html image="images/upstatement-portrait-black.png" url="https://www.upstatement.com/" %}
+            {% include sponsor.html image="images/hackingpediatrics.jpg" url="http://hackingpediatrics.health/" %}
+            {% include sponsor.html image="images/balsamiq.png" url="https://balsamiq.com/" %}
+            {% include sponsor.html image="images/intelladapt.png" url="http://www.intelladapt.com/" %}
+            {% include sponsor.html image="images/soylent.png" url="http://www.soylent.com/" %}
+            {% include sponsor.html image="images/stickeryou-min.png" url="https://www.stickeryou.com/" %}
+          </div>
+          <div class="column">
+            {% include sponsor.html image="images/stickermule.png" url="https://www.stickermule.com/" %}
+            {% include sponsor.html image="images/quarterzero.jpg" url="https://www.quarterzero.com/" %}
+            {% include sponsor.html image="images/beaverworks.png" url="https://beaverworks.ll.mit.edu/CMS/bw/bwsi" %}
+            {% include sponsor.html image="images/accion.png" url="https://www.accion-systems.com/" %}
+            {% include sponsor.html image="images/commonwealthinstitute.png" url="http://commonwealthinstitute.org/" %}
+            {% include sponsor.html image="images/kind.png" url="https://www.kindsnacks.com/" %}
+          </div>
+          <div class="column">
+            {% include sponsor.html image="images/datacamp.png" url="https://www.datacamp.com/" %}
+            {% include sponsor.html image="images/papa-johns.jpg" url="https://www.papajohns.com/" %}
+            {% include sponsor.html image="images/gunnar.png" url="https://gunnar.com/" %}
+            {% include sponsor.html image="images/radix.png" url="http://radix.website/dot-tech/" %}
+            {% include sponsor.html image="images/summercodingacademy.png" url="https://www.summercodingacademy.hsa.net/" %}
+            {% include sponsor.html image="images/ultrapress.png" url="https://ultrapress.com/" %}
+            
+          </div>
+        </div>
+      </div>
+    </section>
+{% include footer.html %}
+</html>

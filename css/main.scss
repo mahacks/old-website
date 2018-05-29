@@ -1,0 +1,70 @@
+---
+---
+
+@charset "utf-8";
+
+// Customization
+
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+
+/*
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+// Update the blue shade, used for links
+$blue: #06bcef;
+// Add pink and its invert
+$pink: #ff8080;
+$pink-invert: #fff;
+// Update the sans-serif font family
+$family-sans-serif: "Helvetica", "Arial", sans-serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink;
+$primary-invert: $pink-invert;
+
+// 4. Import the rest of Bulma
+*/
+
+// This was from this GH issue: https://github.com/jgthms/bulma/issues/1007
+// There's also a hacky workaround for CSS opacity from: https://stackoverflow.com/questions/4997493/set-opacity-of-background-image-without-affecting-child-elements
+.has-bg-img { background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url('../images/past-event-picture.jpg')center center; background-size:cover;}
+
+.main-title-color {
+	color: #54b8c0 !important;
+}
+
+.main-subtitle-color {
+	color: #000000 !important;
+}
+
+.main-button-color {
+	border-color: #54b8c0 !important;
+	color: #54b8c0 !important;
+	background-color: transparent !important;
+	&:hover {
+		background-color: #54b8c0 !important;
+	    color: #fff !important;
+	}
+}
+
+.blue-section {
+	background-color: #53b7c0;
+}
+.green-section {
+	background-color: rgba(20,194,90,0.8);
+}
+.purple-section {
+	background-color: #6737c3;
+}
+.red-section {
+	background-color: #e54304;
+}
+
+$navbar-background-color: #e3e3e3;
+$navbar-item-hover-background-color: #ebebeb;
+
+@import "bulma/bulma";
