@@ -243,7 +243,8 @@ footer {
 	header h2 { font-size: 1.35rem }
 	.half, .third { width: 100%; display: block }
 	.img { height: 275px }
-	svg { transform: scale(1.5) }
+	svg { transform: scale(1.35) }
+	article { padding: 2rem !important }
 }
 @media (max-width: 700px) {
 	section { display: block }
@@ -252,5 +253,5 @@ footer {
 	header { padding-top: 0 }
 	#nav-links li { display: block }
 	#nav-links li a { padding: 1rem 0 0; }
-	svg { transform: scale(1.25) }
+	svg { transform: scale(1) }
 }
