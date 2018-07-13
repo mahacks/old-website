@@ -252,5 +252,5 @@ footer {
 	header { padding-top: 0 }
 	#nav-links li { display: block }
 	#nav-links li a { padding: 1rem 0 0; }
-	svg { transform: scale(1.5) }
+	svg { transform: scale(1.25) }
 }
