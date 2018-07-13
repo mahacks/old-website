@@ -1,113 +1,144 @@
 ---
+title: Home
+layout: barebones
 ---
-<!DOCTYPE html>
-<html class="has-navbar-fixed-top">
-  {% include header.html title="MAHacks | Home" %}
-    <section class="hero is-small is-primary has-bg-img">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns is-gapless">
-            <div class="column"><img src="images/logo-hacks.png" width="360" height="301"></div>
-            <div class="column has-text-centered">
-              <h1 class="title is-1 main-title-color">New England's Bi-Annual High School Hackathon</h1>
-              <h2 class="subtitle is-3 main-subtitle-color">Fall 2018 | Boston, MA</h2>
-              <a class="button main-button-color is-rounded is-outlined" href="/register">Register</a>
-              <a class="button main-button-color is-rounded is-outlined" href="/mentor">Mentor</a>
-              <a class="button main-button-color is-rounded is-outlined" href="/sponsor.pdf">Sponsor</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section blue-section">
-      <div class="container">
-        <div class="columns">
-          <div class="column">
-            <h1 class="title is-1 has-text-white">Where technology meets entrepreneurship</h1>
-          </div>
-          <div class="column">
-            <h2 class="subtitle is-3 has-text-white">We believe in sustainable, long-term projects that solve community problems. We want your hacks to grow beyond our events and create real impact, and we'll help you get there.</h2>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section green-section">
-      <div class="container">
-        <div class="columns">
-          <div class="column">
-            <h1 class="title is-1 has-text-white">About MAHacks</h1>
-            <p class="is-size-5 has-text-white">
-              MAHacks is run for high schoolers, by high schoolers. Our goal is to bring together <b>entrepreneurial-minded</b> and <b>tech-savvy</b> students to form projects that last beyond our event. We want to provide new <b>opportunities</b> for all our participants (with some awesome swag on the side!)
-            </p>
-            <br>
-            <p class="is-size-5 has-text-white">
-              In the past, we've held events at MIT, Canopy Coworking City, and Upstatement. We hope you'll join us for MAHacks IV!
-            </p>
-            <h1 class="title is-1 has-text-white">Introducing Tracks</h1>
-            <p class="is-size-5 has-text-white">
-              At MAHacks III, you could submit your project in one of our tracks and win the opportunity to meet with professionals in the field that will provide mentorship for growing your hacks into real products and ventures. Our tracks address real problems in the community.
-            </p>
-          </div>
-          <div class="column">
-            {% include track.html name="Health" description="Help solve a problem in the medical industry and you could win the chance to continue your project with Boston Children's Hospital! More information coming soon." %}
-            {% include track.html name="Education" description="Being high school students ourselves, education is a huge part of our lives. How can we improve current education technologies? How can we get people excited about learning? More information coming soon." %}
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section purple-section">
-      <div class="container">
-        <h1 class="title is-1 has-text-white">FAQ</h1>
-        <div class="columns">
-          <div class="column">
-            {% include question.html question="What's a hackathon?" answer="A hackathon is a coding event where students and developers work together to create products and designs. There will be a lot of free stuff, free food, and prizes!" %}
-            {% include question.html question="What if I've never coded before?" answer="We’ll have workshops to teach anyone the basics of coding - but it’s not required. Teams often need designers, artists, writers and anyone who can contribute. Most teams actually benefit from non-programmers!" %}
-            {% include question.html question="I don’t have an idea?" answer="Most people come to hackathons with no idea what they’re going to do, and that’s totally fine. We’ll be demoing many company API's and hardware, and you can work with their products!" %}
-          </div>
-          <div class="column">
-             {% include question.html question="Who can come?" answer="Any high schooler interested is welcome, regardless of skill level! Middle school students are allowed on a case-by-case basis. Unfortunately, we cannot allow parents or teacher chaperones at our venue during the event." %}
-             {% include question.html question="How do teams work?" answer="Each team is capped at four members. Each team has the option to submit their project for judging." %}
-             {% include question.html question="What should I bring?" answer="You need a photo ID and something to hack with (like your laptop) and its charger. And most importantly, bring friends!" %}
-          </div>
-          <div class="column">
-            {% include question.html question="How much will it cost?" answer="Nothing. Period. There will be workshops, prizes, free swag, free food, and lots of fun, at zero cost to you." %}
-            {% include question.html question="I don’t have a team?" answer="For the first couple of hours, we will help you network with other students. You can find people you want to work with and make a team on the day of!" %}
-            {% include question.html question="What if I have another question?" answer="Feel free to email us at info [at] mahacks.com, and we’ll get back to you as soon as possible!" %}
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section red-section">
-      <div class="container">
-        <h1 class="title is-1 has-text-white">Sponsors</h1>
-        <div class="columns">
-          <div class="column">
-            <!-- I really wish I could iterate through this with a YAML file or something, but GitHub only has a few supported Jekyll plugins so that isn't possible -->
-            {% include sponsor.html image="images/upstatement-portrait-black.png" url="https://www.upstatement.com/" %}
-            {% include sponsor.html image="images/hackingpediatrics.jpg" url="http://hackingpediatrics.health/" %}
-            {% include sponsor.html image="images/balsamiq.png" url="https://balsamiq.com/" %}
-            {% include sponsor.html image="images/intelladapt.png" url="http://www.intelladapt.com/" %}
-            {% include sponsor.html image="images/soylent.png" url="http://www.soylent.com/" %}
-            {% include sponsor.html image="images/stickeryou-min.png" url="https://www.stickeryou.com/" %}
-          </div>
-          <div class="column">
-            {% include sponsor.html image="images/stickermule.png" url="https://www.stickermule.com/" %}
-            {% include sponsor.html image="images/quarterzero.jpg" url="https://www.quarterzero.com/" %}
-            {% include sponsor.html image="images/beaverworks.png" url="https://beaverworks.ll.mit.edu/CMS/bw/bwsi" %}
-            {% include sponsor.html image="images/accion.png" url="https://www.accion-systems.com/" %}
-            {% include sponsor.html image="images/commonwealthinstitute.png" url="http://commonwealthinstitute.org/" %}
-            {% include sponsor.html image="images/kind.png" url="https://www.kindsnacks.com/" %}
-          </div>
-          <div class="column">
-            {% include sponsor.html image="images/datacamp.png" url="https://www.datacamp.com/" %}
-            {% include sponsor.html image="images/papa-johns.jpg" url="https://www.papajohns.com/" %}
-            {% include sponsor.html image="images/gunnar.png" url="https://gunnar.com/" %}
-            {% include sponsor.html image="images/radix.png" url="http://radix.website/dot-tech/" %}
-            {% include sponsor.html image="images/summercodingacademy.png" url="https://www.summercodingacademy.hsa.net/" %}
-            {% include sponsor.html image="images/ultrapress.png" url="https://ultrapress.com/" %}
-            
-          </div>
-        </div>
-      </div>
-    </section>
-{% include footer.html %}
-</html>
+		<header>
+			<svg width="260" height="180">
+				<polygon id="M-shadow-left" class="shadow" points="-10,2 23,-5 73,70 50.2,92.85"></polygon>
+				<polygon id="M-shadow-right" class="shadow" points="110,34 140,27 140,125 110,134"></polygon>
+				<polygon id="A-shadow" class="shadow" points="205,7.5 172.5,5 140,70 140,125"></polygon>
+				<polygon id="M" class="letter" points="0,0 0,100 120,100 120,0 60,75"></polygon>
+				<polygon id="A" class="letter" points="130,100 260,100 195,0"></polygon>
+			</svg>
+
+			<h1><b>MAHacks</b>: New England's Bi-Annual High School Hackathon</h1>
+			<h2>November 3-4, 2018 | Boston, MA</h2>
+			
+			<a href="register" class="button button-primary">Register</a>
+			<a href="mentor" class="button">Mentor</a>
+			<a href="sponsor" class="button">Sponsor</a>
+		</header>
+
+		<section>
+			<article class="headline half">
+				<h1>About MAHacks</h1>
+				
+				<p>MAHacks is a hackathon for high schoolers, by high schoolers! Hackathons are fun events, often 12 or 24 hours, for diving deep and brainstorming, designing, developing, and presenting projects.</p>
+
+				<p>In the past, we've held events at MIT, Canopy Coworking City, and Upstatement. Join us for <b>MAHacks IV</b> on <b>November 3-4</b>, 2018, at the <b>Boston University Photonics Center</b>!</p>
+
+				<a href="" class="button button-primary">Register</a>
+			</article>
+
+			<article class="half img" id="img1"> </article>
+		</section>
+		
+		<section>
+			<article class="half img" id="img2"> </article>
+
+			<article class="half headline">
+				<h1>Where entrepreneurship meets technology</h1>
+
+				<p>We strive to bring together students with <b>diverse interests and backgrounds</b> to build projects that <b>solve community problems</b>. We want your hacks to <b>grow beyond our events</b> and <b>create real impact</b>, and we'll help you get there.</p>
+
+				<p>In addition to typical hackathon prizes like quadcopters and cool tech, MAHacks strives to connect students to <b>mentors (e.g. company office tours, introductions to professional developers), accelerators/incubators (e.g. Boston Children's Hospital Accelerator), and learning opportunities (e.g. MIT Beaver Works Summer Institute)</b>.</p>
+			</article>
+		</section>
+
+		<section id="faq">
+			<article class="headline light-on-dark top-inset-box-shadow">
+				<div class="centered">
+					<h1>FAQ</h1>
+
+					<p><i>The quintessential part of any hackathon's homepage.</i></p>
+				</div>
+
+				<div class="row">
+					<div class="third">
+						<h3>What the heck is a hackathon?</h3>
+						<p>A hackathon is a fun event where students work together to brainstorm, code, design, and present projects, such as apps, websites, and hardware. At MAHacks, you can expand your skills, make new friends, and create something valuable!</p>
+					</div>
+					
+					<div class="third">
+						<h3>Can I go to MAHacks?</h3>
+						<p>High schoolers from any school, including homeschool, are welcome! Middle school students are allowed on a case-by-case basis. Reach out to us at <a href="mailto:info@mahacks.com">info@mahacks.com</a>. Unfortunately, we cannot allow parents or teacher chaperones at the event.</p>
+					</div>
+					
+					<div class="third">
+						<h3>How much will it cost?</h3>
+						<p>Nothing. Period. There will be workshops, prizes, swag, food, and fun, all at zero cost to you.</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="third">
+						<h3>How do teams work?</h3>
+						<p>Teams are made of 2-4 members and can submit a project as a group. If you don't have a team, don't worry! We'll have a team formation session to help you find other people to work with.</p>
+					</div>
+
+					<div class="third">
+						<h3>What if I've never coded before?</h3>
+						<p>We’ll have workshops to teach anyone the basics of coding, but it’s not required. Teams often need designers, artists, writers, and anyone who can contribute. Most teams benefit from non-programmers!</p>
+					</div>
+
+					<div class="third">
+						<h3>I don’t have an idea!</h3>
+						<p>Most people come to hackathons with no idea what they’re going to do, and that’s totally fine. We’ll be demoing many company APIs and hardware, and you can work with their products!</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="third">
+						<h3>Are there travel reimbursements?</h3>
+						<p>Unfortunately, we cannot reimburse participants’ travel expense at this time. :/ However, feel free to contact us at <a href="mailto:info@mahacks.com">info@mahacks.com</a> for travel advice.</p>
+					</div>
+
+					<div class="third">
+						<h3>What should I bring?</h3>
+						<p>You need something to hack with (like your laptop) and its charger. For an overnight event, don't forget toiletries, a pillow, and a blanket. And most importantly, bring a willingness to learn and have fun!</p>
+					</div>
+
+					<div class="third">
+						<h3>What's the event schedule?</h3>
+						<p>We'll release our schedule, including start/end times, workshops, and special activities, as the event approaches.</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="third">
+						<h3>I'm a college student/professional interested in getting involved. How can I mentor?</h3>
+						<p>Mentors can be college students and professionals skilled in software, mobile, or hardware development, graphic design, marketing, project management, or any area useful for hackathon participants. Mentors are free to work with multiple teams and guide them through issues, technical or otherwise, they're facing.</p>
+					</div>
+
+					<div class="third">
+						<h3>How can I sponsor?</h3>
+						<p>Companies and organizations are welcome to provide monetary support for MAHacks. We also connect participants to mentors (e.g. office tours, chats with professional developers), accelerators/incubators (e.g. Boston Children's Hospital Accelerator), and learning opportunities (e.g. MIT Beaver Works Summer Institute). Reach out at <a href="mailto:info@mahacks.com">info@mahacks.com</a> and we'll be happy to learn about your organization and discuss further.</p>
+					</div>
+
+					<div class="third">
+						<h3>What if I have another question?</h3>
+						<p>Feel free to email us at <a href="mailto:info@mahacks.com">info@mahacks.com</a>, and we’ll get back to you as soon as possible!</p>
+					</div>
+				</div>
+			</article>
+		</section>
+
+		<section id="sponsors">
+			<article class="headline top-inset-box-shadow">
+				<div class="centered">
+					<h1>Sponsors</h1>
+
+					<p><i>We couldn't do this without their support! Currently listed are sponsors for MAHacks III.</i></p>
+
+					<a href="" class="button button-primary">Sponsor</a>
+				</div>
+
+				{% for sponsor in site.sponsors %}
+					<div class="third">
+						<a href="{{ sponsor.link }}">
+							<img src="{{ sponsor.logo_relative_url | prepend: "/sponsor_logos/" | prepend: site.url }}" alt="{{ sponsor.name }}">
+						</a>
+					</div>
+				{% endfor %}
+			</article>
+		</section>

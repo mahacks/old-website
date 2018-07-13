@@ -1,6 +1,13 @@
-  <footer class="footer has-text-centered">
-    <div class="container">
-      <p class="has-text-grey-dark">&copy; MAHacks 2018</p>
-    </div>
-  </footer>
-</body>
+		<footer class="top-inset-box-shadow">
+			<p>Copyright MAHacks 2018</p>
+
+			<nav>
+				<ul>
+					{% for platform in site.social_media %}
+						<li><a href="{{ platform.url }}"><img class="social-icon" src="{{ platform.icon_url | prepend:site.url }}" alt="{{ platform.name }}"></a></li>
+					{% endfor %}
+				</ul>
+			</nav>
+		</footer>
+	</body>
+</html>

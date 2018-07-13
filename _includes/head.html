@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
+		<link rel="stylesheet" href="{{ '/css/styles.min.css' | prepend:site.url }}">
+		<link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+		<!--og (open graph) for optimizing Facebook sharing-->
+		<meta property="og:title" content="{{ site.title }} | {{ site.tagline }}">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="{{ site.url }}">
+		<meta property="og:image" content=""><!--TODO-->
+		<meta property="og:site_name" content="{{ site.title }}">
+		<meta property="og:description" content="{{ site.description }}">
+		<!--tags for Twitter-->
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:image" content=""><!--TODO-->
+		<meta property="twitter:title" content="{{ site.title }} | {{ site.tagline }}">
+		<meta property="twitter:description" content="{{ site.description }}">
+		<meta name="twitter:site" content="@ma_hacks">
+	</head>
+
+	<body>
+		{% include nav.html %}

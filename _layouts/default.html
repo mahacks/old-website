@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html class="has-navbar-fixed-top">
-  {% include header.html title="MAHacks" %}
-  <div class="container">
-  	<div class="content">
-  		{{ content }}
-  	</div>
-  </div>
-  {% include footer.html %}
- </html>
+{% include head.html %}
+
+		<section>
+			<article class="headline">
+				{{ content }}
+			</article>
+		</section>
+
+{% include footer.html %}

@@ -1,45 +1,111 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: MAHacks
-email: info@mahacks.com
-description: > # this means to ignore newlines until "baseurl:"
-  MAHacks is a Boston-area hackathon run for high schoolers, by high schoolers. Join us during Fall 2018!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mahacks.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ma_hacks
-github_username:  mahacks
+# tagline and description for meta tags
+tagline: High School Hackathon in Boston
+description: Hackathon in Boston for high schoolers, by high schoolers. We encourage participants to create impactful projects that solve problems. November 3-4, 2018, Boston University.
+url: http://mahacks.com # no slash means that all relative URLs that prepend site.url must begin with a slash
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
-sass:
-  sass_dir: _sass
-  style: compressed
+permalink: /:title # clean URLs, e.g. /about as opposed to /about.html
 
+# notes:
+# - order of links in this file determines order on website
+# - all relative URLs should be appended to site.url, regardless of source file directory
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# homepage links
+links:
+  - name: About
+    url: /about
+  - name: Past Events
+    url: /past-events
+  - name: Blog
+    url: /blog # TODO: make redirect
+  - name: FAQ
+    url: /#faq
+
+# homepage images
+
+# social media
+social_media:
+  - name: Facebook
+    url: http://facebook.com/mahacks
+    icon_url: /icons/facebook-logo.svg
+  - name: Medium
+    url: http://medium.com/mahacks
+    icon_url: /icons/medium-logo.svg
+  - name: Twitter
+    url: http://twitter.com/ma_hacks
+    icon_url: /icons/twitter-logo.svg
+  - name: Instagram
+    url: http://instagram.com/ma_hacks
+    icon_url: /icons/instagram-logo.svg
+
+# organizers
+team:
+  - name: Katherine Huang
+  - name: Emily Tan
+  - name: Aadhya Puttur
+  - name: Rebekah Agwunobi
+  - name: Walter Shen
+  - name: Zhi Wei Gan
+  - name: Jolene Pern
+  - name: Nina Zhang
+  - name: Theo Bleier
+alumni:
+  - name: Justin Yu
+  - name: Max Krieger
+  - name: Edward Song
+  - name: Nimish Garg
+  - name: Jennifer Kim
+
+# sponsors
+sponsors:
+  - name: Upstatement
+    link: http://upstatement.com
+    logo_relative_url: /upstatement.png
+  - name: Balsamiq
+    link: http://balsamiq.com
+    logo_relative_url: /balsamiq.png
+  - name: MIT Beaver Works Summer Institute
+    link: https://beaverworks.ll.mit.edu/CMS/bw/
+    logo_relative_url: /beaverworks.png
+  - name: Ultrapress
+    link: http://Ultrapress.com
+    logo_relative_url: /ultrapress.png
+  - name: Gunnar
+    link: http://gunnar.com
+    logo_relative_url: /gunnar.png
+  - name: Accion
+    link: http://accion-systems.com
+    logo_relative_url: /accion.png
+  - name: DataCamp
+    link: http://datacamp.com
+    logo_relative_url: /datacamp.png
+  - name: Commonwealth Institute
+    link: http://commonwealthinstitute.org/
+    logo_relative_url: /commonwealthinstitute.png
+  - name: intellADAPT
+    link: http://intelladapt.com/
+    logo_relative_url: /intelladapt.png
+  - name: National Center for Women & IT
+    link: http://ncwit.org/
+    logo_relative_url: /ncwit.jpg
+  - name: Hacking Pediatrics
+    link: http://hackingpediatrics.health/
+    logo_relative_url: /hackingpediatrics.JPG
+  - name: Quarter Zero
+    link: http://quarterzero.com/
+    logo_relative_url: /quarterzero.jpg
+  - name: Harvard Student Agencies Summer Coding Academy
+    link: https://www.summercodingacademy.hsa.net/
+    logo_relative_url: /summercodingacademy.png
+  - name: StickerYou
+    link: https://www.stickeryou.com
+    logo_relative_url: /stickeryou.png
+  - name: Papa John's
+    link: https://www.papajohns.com
+    logo_relative_url: /papa-johns.jpg
+  - name: Sticker Mule
+    link: https://www.stickermule.com
+    logo_relative_url: /stickermule.png
+  - name: Radix
+    link: https://www.get.tech
+    logo_relative_url: /radix.png
