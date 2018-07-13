@@ -4,9 +4,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Muli, Helvetica, Arial, sans-serif;
 }
-
+h1,h2,h3,p,li,a,span { font-family: Muli, Helvetica, Arial, sans-serif }
 body { background: linear-gradient(#06030a, #361b59) fixed }
 header, footer { text-align: center }
 
