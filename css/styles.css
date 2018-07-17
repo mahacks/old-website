@@ -167,8 +167,8 @@ section, footer {
 	width: 80%;
 	margin: auto;
 }
-#img1 { background: url({{ '/1.jpg' | prepend:site.url }}) center / cover no-repeat }
-#img2 { background: url({{ '/2.jpg' | prepend:site.url }}) center / cover no-repeat }
+#img1 { background: url({{ site.home_img1_url | prepend:site.url }}) center / cover no-repeat }
+#img2 { background: url({{ site.home_img2_url | prepend:site.url }}) center / cover no-repeat }
 .third:last-child { padding-right: 0; }
 img { max-width: 100% }
 .person {
@@ -193,7 +193,7 @@ section h1 {
 	letter-spacing: -.5px;
 	line-height: 100%;
 }
-section h1:after, .gradient-underline {
+section h1:after, .gradient-underline:after {
   content: "";
   display: block;
   position: relative;
@@ -204,7 +204,7 @@ section h1:after, .gradient-underline {
   z-index: -1;
   transition: .15s;
 }
-section h1:hover:after, .gradient-underline {
+section h1:hover:after, .gradient-underline:hover:after {
   height: .5em;
   top: -.3em; /* difference btwn initial and final underline thickness */
   margin-bottom: -.3em; /* difference btwn initial and final underline thickness */
