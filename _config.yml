@@ -22,6 +22,8 @@ links:
     url: /#faq
 
 # homepage images
+home_img1_url: /1.jpg
+home_img2_url: /2.jpg
 
 # social media
 social_media:
