@@ -127,13 +127,22 @@ layout: barebones
 			<article class="headline top-inset-box-shadow">
 				<div class="centered">
 					<h1>Sponsors</h1>
-
-					<p><i>We couldn't do this without their support! Currently listed are sponsors for MAHacks III.</i></p>
-
-					<a href="sponsor" class="button button-primary">Sponsor</a>
+					<p><i>Thank you to all of our sponsors! Without your help, MAHacks wouldn't be possible.</p></i>
+					<a href="sponsor" class="button button-primary">Interested in sponsoring? Click here!</a>
+				</div>
+					{% for sponsor in site.sponsors %}
+					<div class="third">
+						<a href="{{ sponsor.link }}">
+							<img src="{{ sponsor.logo_relative_url | prepend: "/sponsor_logos/" | prepend: site.url }}" alt="{{ sponsor.name }}">
+						</a>
+					</div>
+				{% endfor %}
+					<div class="centered">
+					<br>
+					<h1>Past Sponsors</h1>
 				</div>
 
-				{% for sponsor in site.sponsors %}
+				{% for sponsor in site.past_sponsors %}
 					<div class="third">
 						<a href="{{ sponsor.link }}">
 							<img src="{{ sponsor.logo_relative_url | prepend: "/sponsor_logos/" | prepend: site.url }}" alt="{{ sponsor.name }}">

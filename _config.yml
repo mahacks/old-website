@@ -59,13 +59,22 @@ alumni:
   - name: Jennifer Kim
 
 # sponsors
+
 sponsors:
-  - name: Upstatement
-    link: http://upstatement.com
-    logo_relative_url: /upstatement.png
   - name: Balsamiq
     link: http://balsamiq.com
     logo_relative_url: /balsamiq.png
+  - name: JetBrains
+    link: https://jetbrains.com
+    logo_relative_url: /jetbrains.png
+
+
+
+
+past_sponsors:
+  - name: Upstatement
+    link: http://upstatement.com
+    logo_relative_url: /upstatement.png
   - name: MIT Beaver Works Summer Institute
     link: https://beaverworks.ll.mit.edu/CMS/bw/
     logo_relative_url: /beaverworks.png
