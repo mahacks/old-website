@@ -6,6 +6,7 @@ url: https://mahacks.com # no slash means that all relative URLs that prepend si
 
 permalink: /:title # clean URLs, e.g. /about as opposed to /about.html
 
+# comment because git sucks
 # notes:
 # - order of links in this file determines order on website
 # - all relative URLs should be appended to site.url, regardless of source file directory
