@@ -21,6 +21,8 @@ links:
     url: /blog # TODO: make redirect
   - name: FAQ
     url: /#faq
+  - name: Sponsors
+    url: /#sponsors
 
 # homepage images
 home_img1_url: /1.jpg
