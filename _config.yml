@@ -71,7 +71,9 @@ sponsors:
   - name: Hack Club
     link: https://hackclub.com
     logo_relative_url: /hackclub.png
-
+  - name: Particle
+    link: https://particle.io
+    logo_relative_url: /particle.png
 
 
 past_sponsors:
