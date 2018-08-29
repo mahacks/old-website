@@ -76,6 +76,9 @@ sponsors:
   - name: Particle
     link: https://particle.io
     logo_relative_url: /particle.png
+  - name: Wolfram
+    link: https://wolfram.com
+    logo_relative_url: /wolfram.png
 
 
 past_sponsors:
