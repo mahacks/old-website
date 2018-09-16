@@ -76,6 +76,9 @@ sponsors:
   - name: Particle
     link: https://particle.io
     logo_relative_url: /particle.png
+  - name: Dot Tech
+    link: https://www.get.tech
+    logo_relative_url: /dottech.png
 
 
 past_sponsors:
