@@ -79,6 +79,12 @@ sponsors:
   - name: Dot Tech
     link: https://www.get.tech
     logo_relative_url: /dottech.png
+  - name: Wolfram
+    link: https://wolfram.com/language/
+    logo_relative_url: /wolfram.png
+  - name: StickerGiant
+    link: https://stickergiant.com/
+    logo_relative_url: /stickergiant.png
 
 
 past_sponsors:
