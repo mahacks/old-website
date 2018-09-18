@@ -85,6 +85,9 @@ sponsors:
   - name: StickerGiant
     link: https://stickergiant.com/
     logo_relative_url: /stickergiant.png
+  - name: RStudio
+    link: https://rstudio.com/
+    logo_relative_url: /rstudio.png
 
 
 past_sponsors:
