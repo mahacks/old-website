@@ -88,6 +88,9 @@ sponsors:
   - name: RStudio
     link: https://rstudio.com/
     logo_relative_url: /rstudio.png
+  - name: Sketch
+    link: https://sketchapp.com/
+    logo_relative_url: /sketch.png
 
 
 past_sponsors:
