@@ -5,7 +5,6 @@ layout: default
 
 # Past Events
 
-Photos and more details coming soon!
 
 
 ## MAHacks III
