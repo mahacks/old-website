@@ -25,7 +25,7 @@ Co-Director 2018-9, Organizer 2017-8
 
 Medford High School ‘19
 
-Hi! I’m Emily, a senior at Medford High School. Inclusion has always been important to me, and through MAHacks I hope to build a supportive community of peers and mentors that continues to encourage each other beyond our events. Outside of organizing MAHacks I’m involved in various school activities (go Mustangs!) such as being captain of Botball team 0547, chief editor of the printed Mustang News, director of Medford’s annual Diversity Week, and president of the [CCSR](www.medfordccsr.org). I've been a pianist for 13 years and double bassist for the high school orchestra. Whenever I have free time I enjoy power napping, getting lost in Boston, or jamming out to some Chopin/the Beetles/Coldplay. ~~One of my goals~~ My only goal in life is to produce a documentary on ~~pandas~~ ~~chipmunks~~ squirrels 
+Hi! I’m Emily, a senior at Medford High School. Inclusion has always been important to me, and through MAHacks I aim to build a supportive community of peers and mentors that continues to encourage each other _beyond our events_. Outside of organizing MAHacks I’m involved in various school activities (go Mustangs!): I'm captain of Botball team 0547, chief editor of the printed Mustang News, director of Medford’s annual Diversity Week, and president of the [CCSR](www.medfordccsr.org). I've also been a pianist for 13 years and double bassist for my high school orchestra (pretty funny with me being 4ft 10.75in) Whenever I have free time I enjoy power napping or jamming out to Christmas music in my pjs :D ~~One of my goals~~ My only goal in life is to produce a documentary on ~~pandas~~ ~~chipmunks~~ squirrels 
 
 ### Walter Shen
 
