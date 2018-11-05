@@ -77,9 +77,9 @@ Hey guys! My name is Nina and I’m a junior at Winchester High School. I’m ex
 
 ### Theo Bleier
 
-## Blog
+Organizer 2018-19
 
-Check out our blog posts on our [Medium page](www.medium.com/mahacks)!
+Westborough High School '22
 
 ## About the Website
 
