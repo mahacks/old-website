@@ -17,8 +17,7 @@ links:
     url: /about
   - name: Past Events
     url: /past-events
-  # - name: Blog
-  #   url: /blog # TODO: make redirect
+
   - name: FAQ
     url: /#faq
   - name: Sponsors
