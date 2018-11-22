@@ -66,6 +66,9 @@ sponsors:
   - name: Balsamiq
     link: http://balsamiq.com
     logo_relative_url: /balsamiq.png
+  - name: Wildbit
+    link: http://wildbit.com
+    logo_relative_url: /wildbit.png    
   - name: JetBrains
     link: https://jetbrains.com
     logo_relative_url: /jetbrains.png
