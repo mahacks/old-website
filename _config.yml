@@ -93,6 +93,9 @@ sponsors:
   - name: Sketch
     link: https://sketchapp.com/
     logo_relative_url: /sketch.png
+  - name: AoPS
+    link: https://aops.com/
+    logo_relative_url: /aops.png
 
 
 past_sponsors:
