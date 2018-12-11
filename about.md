@@ -67,13 +67,6 @@ Andover High School ‘20
 
 I am a junior at Andover High School. MAHacks was the first hackathon I ever did and I learned so much about STEM and how to use my knowledge to make something that can positively impact the world. I want to allow other high school students to reach their full potential and I am the Executive Vice President of Andover Robotics Club, mentor a First Lego League robotics team, and participate in Girls Who Code. Outside of STEM, I am a Global Scholar at Andover High School, play violin and enjoy doing calligraphy(fancy cursive). My favorite animal is a unicorn (don’t you dare tell me they’re not real) and occasionally dress up as a unicorn. I am excited to be a part of MAHacks and encourage other high school students to become interested in the field of STEM!
 
-### Nina Zhang
-
-Organizer 2018-19
-
-Winchester High School ‘20
-
-Hey guys! My name is Nina and I’m a junior at Winchester High School. I’m extremely passionate about STEM and entrepreneurship, as I’m an officer of the Winchester Science Olympiad, and an active member of the Winchester Robotics Team (Winchester B781-7otball…thanks KIPR). Additionally, I’m part of the Winchester High School Tennis Team and during my free time, I enjoy watching Youtube, playing video games, and surfing through instagram. My favorite animal is the orca because they’re so adorable and ahhhh…they’re just really cute. In conclusion, I wish to improve the diversity of the participants in MAHacks and give people more experience in science and technology. I’m extremely excited to be a part of this team that motivates and supports people interested in STEM. Oh yea, Hedgehogs are also really cute.  
 
 ### Theo Bleier
 
