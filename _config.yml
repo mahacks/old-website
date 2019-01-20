@@ -67,6 +67,9 @@ sponsors:
   - name: Balsamiq
     link: http://balsamiq.com
     logo_relative_url: /balsamiq.png
+  - name: Wildbit
+    link: http://wildbit.com
+    logo_relative_url: /wildbit.png    
   - name: JetBrains
     link: https://jetbrains.com
     logo_relative_url: /jetbrains.png
@@ -91,6 +94,9 @@ sponsors:
   - name: Sketch
     link: https://sketchapp.com/
     logo_relative_url: /sketch.png
+  - name: AoPS
+    link: https://aops.com/
+    logo_relative_url: /aops.png
 
 
 past_sponsors:
