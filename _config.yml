@@ -1,7 +1,7 @@
 title: MAHacks
 # tagline and description for meta tags
 tagline: High School Hackathon in Boston
-description: Hackathon in Boston for high schoolers, by high schoolers. We encourage participants to create impactful projects that solve problems. December 1-2, 2018, WordStream HQ @ Prudential Center.
+description: Hackathon in Boston for high schoolers, by high schoolers. We encourage participants to create impactful projects that solve problems. May, 2019, Boston, MA.
 url: https://mahacks.com # no slash means that all relative URLs that prepend site.url must begin with a slash
 
 permalink: /:title # clean URLs, e.g. /about as opposed to /about.html
