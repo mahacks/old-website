@@ -62,6 +62,12 @@ alumni:
 # sponsors
 
 sponsors:
+  - name: Hack Club
+    link: https://hackclub.com/bank
+    logo_relative_url: /powered-by-hack-club.png
+
+
+past_sponsors:
   - name: Balsamiq
     link: http://balsamiq.com
     logo_relative_url: /balsamiq.png
@@ -71,9 +77,6 @@ sponsors:
   - name: JetBrains
     link: https://jetbrains.com
     logo_relative_url: /jetbrains.png
-  - name: Hack Club
-    link: https://hackclub.com/bank
-    logo_relative_url: /powered-by-hack-club.png
   - name: Particle
     link: https://particle.io
     logo_relative_url: /particle.png
@@ -95,54 +98,3 @@ sponsors:
   - name: AoPS
     link: https://aops.com/
     logo_relative_url: /aops.png
-
-
-past_sponsors:
-  - name: Upstatement
-    link: http://upstatement.com
-    logo_relative_url: /upstatement.png
-  - name: MIT Beaver Works Summer Institute
-    link: https://beaverworks.ll.mit.edu/CMS/bw/
-    logo_relative_url: /beaverworks.png
-  - name: Ultrapress
-    link: http://Ultrapress.com
-    logo_relative_url: /ultrapress.png
-  - name: Gunnar
-    link: http://gunnar.com
-    logo_relative_url: /gunnar.png
-  - name: Accion
-    link: http://accion-systems.com
-    logo_relative_url: /accion.png
-  - name: DataCamp
-    link: http://datacamp.com
-    logo_relative_url: /datacamp.png
-  - name: Commonwealth Institute
-    link: http://commonwealthinstitute.org/
-    logo_relative_url: /commonwealthinstitute.png
-  - name: intellADAPT
-    link: http://intelladapt.com/
-    logo_relative_url: /intelladapt.png
-  - name: National Center for Women & IT
-    link: http://ncwit.org/
-    logo_relative_url: /ncwit.jpg
-  - name: Hacking Pediatrics
-    link: http://hackingpediatrics.health/
-    logo_relative_url: /hackingpediatrics.JPG
-  - name: Quarter Zero
-    link: http://quarterzero.com/
-    logo_relative_url: /quarterzero.jpg
-  - name: Harvard Student Agencies Summer Coding Academy
-    link: https://www.summercodingacademy.hsa.net/
-    logo_relative_url: /summercodingacademy.png
-  - name: StickerYou
-    link: https://www.stickeryou.com
-    logo_relative_url: /stickeryou.png
-  - name: Papa John's
-    link: https://www.papajohns.com
-    logo_relative_url: /papa-johns.jpg
-  - name: Sticker Mule
-    link: https://www.stickermule.com
-    logo_relative_url: /stickermule.png
-  - name: Radix
-    link: https://www.get.tech
-    logo_relative_url: /radix.png
