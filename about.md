@@ -81,13 +81,21 @@ Andover High School '22
 
 
 ## Alumni
+
 Justin Yu
+
 Max Krieger
+
 Edward Song
+
 Nimish Garg
+
 Jennifer Kim
+
 Nina Zhang
+
 Zhi Wei Gan
+
 Rebekah Agwunobi
 
 
