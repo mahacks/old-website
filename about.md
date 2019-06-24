@@ -19,39 +19,28 @@ Most hackathons are for college students or professionals. MAHacks strives to ex
 Andover High School ‘20
 
 
+### Viki Yang
+Needham High School ‘20
+
+
 ### Theo Bleier
 
 Westborough High School '22
 
 
-### Katherine Huang
-
-Lowell High School ‘19
-
-
-### Emily Tan
-
-Medford High School ‘19
-
-
-### Walter Shen
-
-Belmont High School ‘19
-
-
-### Aadhya Puttur
-
-Chelmsford High School ‘19
-
-
-### Matthew Stanciu
-
-West Lafayette Jr./Sr. High School '20
-
-
 ### Jocelyn Pern
 
 Andover High School '22
+
+
+### Matt Tengtrakool
+
+Burlington High School '21
+
+
+### Kunal Sharda
+
+Acton Boxborough Regional High School ‘20
 
 
 ## Alumni
@@ -71,6 +60,16 @@ Nina Zhang
 Zhi Wei Gan
 
 Rebekah Agwunobi
+
+Aadhya Puttur
+
+Walter Shen
+
+Katherine Huang
+
+Emily Tan
+
+
 
 
 ## About the Website
