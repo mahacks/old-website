@@ -19,7 +19,7 @@ Most hackathons are for college students or professionals. MAHacks strives to ex
 Andover High School ‘20
 
 
-### Viki Yang
+### Vicki Yang
 Needham High School ‘20
 
 
