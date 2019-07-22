@@ -65,6 +65,12 @@ sponsors:
   - name: Hack Club
     link: https://hackclub.com/bank
     logo_relative_url: /powered-by-hack-club.png
+  - name: Privitar
+    link: https://www.privitar.com/
+    logo_relative_url: /privitar.jpg
+  - name: Ubisoft
+    link: https://www.ubisoft.com/en-us
+    logo_relative_url: /ubisoft.png
 
 
 past_sponsors:
