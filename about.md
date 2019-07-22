@@ -16,67 +16,59 @@ Most hackathons are for college students or professionals. MAHacks strives to ex
 
 ### Jolene Pern
 
-Andover High School ‘20
+_Andover High School ‘20_
 
 Jolene is a rising senior from Andover, MA. She is extremely passionate about ensuring that MAHacks is welcoming to anyone who wants to explore their interest in technology. At school, Jolene does several other activities that channel her love for diversifying the field of STEM, such as robotics and programming. Outside of science and tech, Jolene enjoys writing random motivational quotes in calligraphy and drinking boba tea!
 
 
 ### Vicki Yang
 
-Needham High School ‘20
+_Needham High School ‘20_
 
 Vicki is a rising senior from Needham, MA. She is super excited to welcome people to MAHacks and create a collaborative environment for other high schoolers to learn more about STEM. Aside from being an organizer of MAHacks, Vicki is a member of the HackHers FTC team and is co-president of the Biobuilders club. In her limited free time, Vicki also likes to play video games (like League of Legends) and read.
 
 
 ### Jocelyn Pern
 
-Andover High School '22
+_Andover High School '22_
 
 Jocelyn is a rising sophomore from Andover, MA. She is especially eager about making sure MAHacks’ message inspires curious high schoolers to channel their talents into a project that positively impacts the world. During and after school, Jocelyn immerses herself in STEM activities, such as FIRST robotics and programming, Outside of STEM, Jocelyn loves to build jigsaw puzzles and solve a variety of Rubik’s cubes.
 
 
 ### Matt Tengtrakool
 
-Burlington High School '21
+_Burlington High School '21_
 
 Matt is a rising junior from Burlington, Ma.  He is thrilled to help facilitate passions around technology.  Matt strives to spread STEM learning within the community.  He is the founder of BHS Mu Alpha Theta an active member in the Math League and the technology program.   He also enjoys to help other students as the co-president of peer tutoring and treasurer of student council.  His hobbies include swimming, tennis and the saxophone.
 
 
 ### Kunal Sharda
 
-Acton Boxborough Regional High School ‘20
+_Acton Boxborough Regional High School ‘20_
+
+Kunal is a rising senior from Acton, MA. He loves all things entrepreneurship and is enthusiastic about MAHacks’ mission to make innovation more accessible. In fact, during MAHacks III, he had the opportunity to build a project that eventually emerged into his startup, Scintillating, which has allowed him to raise funding, meet with prominent clients, and speak at prestigious institutions. Outside of his company, he spends time leading his local robotics team and actively participating in green energy initiatives. He enjoys tennis, video games, and playing with his labradoodle, Zuko!
+
+
+### Michelle Yu
+
+_Newton South High School ‘21_
+
+Michelle is a rising junior from Newton, MA. She is very passionate about creating opportunities in her community to spread STEM. Aside from MAHacks, Michelle is a member of her school's FRC robotics team and the president of the Technovation club at her school. Michelle also loves anything that has to do with mechanics and penguins (maybe not together though).
 
 
 ### Theo Bleier
 
-Westborough High School '22
+_Westborough High School '22_
 
 
 ## Alumni
 
-Justin Yu
-
-Max Krieger
-
-Edward Song
-
-Nimish Garg
-
-Jennifer Kim
-
-Nina Zhang
-
-Zhi Wei Gan
-
-Rebekah Agwunobi
-
-Aadhya Puttur
-
-Walter Shen
-
-Katherine Huang
-
-Emily Tan
+|Justin Yu   |Katherine Huang  |
+|Max Krieger |Emily Tan        |
+|Edward Song |Walter Shen      |
+|Nimish Garg |Zhi Wei Gan      |
+|Jennifer Kim|Rebekah Agwunobi |
+|Nina Zhang  |Aadhya Puttur    |
 
 
 
