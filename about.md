@@ -62,6 +62,7 @@ _Westborough High School '22_
 
 
 ## Alumni
+
 |Justin Yu   |Katherine Huang  |
 |Max Krieger |Emily Tan        |
 |Edward Song |Walter Shen      |
