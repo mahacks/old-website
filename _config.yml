@@ -65,6 +65,9 @@ sponsors:
   - name: Hack Club
     link: https://hackclub.com/bank
     logo_relative_url: /powered-by-hack-club.png
+  - name: Flywire
+    link: https://www.flywire.com/
+    logo_relative_url: /flywire.png
   - name: Privitar
     link: https://www.privitar.com/
     logo_relative_url: /privitar.jpg
