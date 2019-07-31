@@ -13,6 +13,7 @@ Most hackathons are for college students or professionals. MAHacks strives to ex
 
 ![alt text](uwuhaccs.jpg "MAHacks Team 2018-19")
 
+## Organizers 2019-2020
 
 ![alt text](./organizer_photos/jolene.png "Jolene Pern")
 
