@@ -152,11 +152,7 @@ svg {
 .half {
 	width: 49%;
 }
-.third {
-	width: 33%;
-	display: inline-block;
-	padding-right: 1rem;
-}
+
 article {
 	position: relative;
 	z-index: 0;
@@ -167,8 +163,21 @@ section, footer {
 	width: 80%;
 	margin: auto;
 }
-#img1 { background: url({{ site.home_img1_url | prepend:site.url }}) center / cover no-repeat }
-#img2 { background: url({{ site.home_img2_url | prepend:site.url }}) center / cover no-repeat }
+
+.question-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+}
+
+.sponsor-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+#img1 { background: url({{ site.home_img1_url }}) center / cover no-repeat }
+#img2 { background: url({{ site.home_img2_url }}) center / cover no-repeat }
 .third:last-child { padding-right: 0; }
 img { max-width: 100% }
 .person {
@@ -225,6 +234,21 @@ h3 { font: bold 1.5rem/120% Muli, Helvetica, Arial, sans-serif }
 	background: #222;
 	color: #fff;
 }
+
+.question-grid div {
+	text-align: center;
+}
+
+.sponsor-grid div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sponsor-grid div a img {
+	max-height: 15rem;
+}
+
 .light-on-dark p { color: #ccc !important }
 .light-on-dark a { color: #fff !important }
 .top-inset-box-shadow { box-shadow: inset 0 10px 25px -15px #000 }
@@ -238,6 +262,7 @@ footer {
 
 /* ----------------------------- MEDIA QUERIES ----------------------------- */
 @media (max-width: 1200px) {
+	.question-grid { grid-template-columns: 1fr }
 	#global-nav li { margin: 0 .75rem }
 	header h1 { font-size: 1.65rem; margin-bottom: .75rem }
 	header h2 { font-size: 1.35rem }
@@ -247,6 +272,7 @@ footer {
 	article { padding: 2rem !important }
 }
 @media (max-width: 700px) {
+	.sponsor-grid { grid-template-columns: 1fr }
 	section { display: block }
 	header, section, footer { width: 100% }
 	#global-nav { padding: 2rem }

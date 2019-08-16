@@ -5,7 +5,7 @@
 			<nav>
 				<ul>
 					{% for platform in site.social_media %}
-						<li><a href="{{ platform.url }}"><img class="social-icon" src="{{ platform.icon_url | prepend:site.url }}" alt="{{ platform.name }}"></a></li>
+						<li><a href="{{ platform.url }}"><img class="social-icon" src="{{ platform.icon_url }}" alt="{{ platform.name }}"></a></li>
 					{% endfor %}
 				</ul>
 			</nav>

@@ -41,26 +41,7 @@ social_media:
     url: http://instagram.com/ma_hacks
     icon_url: /icons/instagram-logo.svg
 
-# organizers
-team:
-  - name: Katherine Huang
-  - name: Emily Tan
-  - name: Aadhya Puttur
-  - name: Rebekah Agwunobi
-  - name: Walter Shen
-  - name: Zhi Wei Gan
-  - name: Jolene Pern
-  - name: Nina Zhang
-  - name: Theo Bleier
-alumni:
-  - name: Justin Yu
-  - name: Max Krieger
-  - name: Edward Song
-  - name: Nimish Garg
-  - name: Jennifer Kim
-
 # sponsors
-
 sponsors:
   - name: Hack Club
     link: https://hackclub.com/bank
@@ -74,36 +55,3 @@ sponsors:
   - name: Ubisoft
     link: https://www.ubisoft.com/en-us
     logo_relative_url: /ubisoft.png
-
-
-past_sponsors:
-  - name: Balsamiq
-    link: http://balsamiq.com
-    logo_relative_url: /balsamiq.png
-  - name: Wildbit
-    link: http://wildbit.com
-    logo_relative_url: /wildbit.png    
-  - name: JetBrains
-    link: https://jetbrains.com
-    logo_relative_url: /jetbrains.png
-  - name: Particle
-    link: https://particle.io
-    logo_relative_url: /particle.png
-  - name: Dot Tech
-    link: https://www.get.tech
-    logo_relative_url: /dottech.png
-  - name: Wolfram
-    link: https://wolfram.com/language/
-    logo_relative_url: /wolfram.png
-  - name: StickerGiant
-    link: https://stickergiant.com/
-    logo_relative_url: /stickergiant.png
-  - name: RStudio
-    link: https://rstudio.com/
-    logo_relative_url: /rstudio.png
-  - name: Sketch
-    link: https://sketchapp.com/
-    logo_relative_url: /sketch.png
-  - name: AoPS
-    link: https://aops.com/
-    logo_relative_url: /aops.png
