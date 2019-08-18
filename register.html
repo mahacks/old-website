@@ -2,6 +2,113 @@
 title: Register
 layout: barebones
 ---
-<center>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeaGHVhLUMXPInqZgbxXwYHKdtQHbWrJrzlSM5NJmyo8zE9KQ/viewform" height="1920" width="1080"></iframe>
-</center>
+<section>
+	<div class="container">
+		<div class="centered">
+			<h1 style="color: white;">Register</h1>
+			<p style="margin: 0; color: white">Coming to MAHacks is free, including meals and swag. See you then!</p>
+		</div>
+
+		<form action="https://api.mahacks.com/signup" class="form">
+			<h3 class="sectionTitle">Hacker Information</h3>
+			<p class="sectionByline">We can't wait to learn more about you.</p>
+
+			<div class="fieldGrid">
+				<div class="field">
+					<p class="fieldName">First Name</p>
+					<input class="fieldInput" type="text" name="firstName" placeholder="Ginny">
+				</div>
+
+				<div class="field">
+					<p class="fieldName">Last Name</p>
+					<input class="fieldInput" type="text" name="lastName" placeholder="Smith">
+				</div>
+
+				<div class="field">
+					<p class="fieldName">Email</p>
+					<input class="fieldInput" type="text" name="email" placeholder="gsmith@gmail.com">
+				</div>
+
+				<div class="field">
+					<p class="fieldName">Phone Number</p>
+					<input class="fieldInput" type="text" name="phone" placeholder="+1-508-123-4567">
+				</div>
+			</div>
+
+			<div class="field">
+				<p class="fieldName">Pronouns</p>
+				<select name="pronouns" class="fieldInput thickerBorder">
+					<option value="he">he/him</option>
+					<option value="she">she/her</option>
+					<option value="they">they/them</option>
+					<option value="other">Other/prefer not to specify</option>
+				</select>
+			</div>
+
+			<div class="fieldGrid">
+				<div class="field">
+					<p class="fieldName">School</p>
+					<input class="fieldInput" type="text" name="school" placeholder="Hacking High School">
+				</div>
+				<div class="field">
+					<p class="fieldName">Grade</p>
+					<select name="grade" class="fieldInput thickerBorder">
+						<option value="9">9th (Class of 2023)</option>
+						<option value="10">10th (Class of 2022)</option>
+						<option value="11">11th (Class of 2021)</option>
+						<option value="12">12th (Class of 2020)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="field">
+				<p class="fieldName">T-Shirt Size</p>
+				<select name="tshirt" class="fieldInput thickerBorder">
+					<option value="s">S</option>
+					<option value="m">M</option>
+					<option value="l">L</option>
+					<option value="xl">XL</option>
+					<option value="xxl">XXL</option>
+				</select>
+			</div>
+
+			<div class="field">
+				<p class="fieldName">Dietary Restrictions</p>
+				<input class="fieldInput" type="text" name="diet" placeholder="I can only eat dinosaur eggs!">
+			</div>
+
+			<h3 class="sectionTitle space">Parent Information</h3>
+			<p class="sectionByline">In case of an emergency, we need to be able to reach a parent. No spam.</p>
+
+			<div class="field">
+				<p class="fieldName">Parent Name</p>
+				<input class="fieldInput" type="text" name="parentName" placeholder="Gloria Smith">
+			</div>
+
+			<div class="fieldGrid">
+				<div class="field">
+					<p class="fieldName">Parent Email</p>
+					<input class="fieldInput" type="text" name="parentEmail" placeholder="gsmith@gmail.com">
+				</div>
+				<div class="field">
+					<p class="fieldName">Parent Phone Number</p>
+					<input class="fieldInput" type="text" name="parentPhone" placeholder="+1-508-123-4567">
+				</div>
+			</div>
+
+			<h3 class="sectionTitle space space-bottom">Also...</h3>
+			
+			<div class="field">
+				<p class="fieldName">How did you hear about us?</p>
+				<input class="fieldInput" type="text" name="referrer" placeholder="Teacher, principal, friend's name, etc..">
+			</div>
+
+			<div class="field">
+				<p class="fieldName">Any questions?</p>
+				<textarea class="fieldInput" name="questions" placeholder="Can I bring food to the event?"></textarea>
+			</div>
+
+			<input type="submit" value="Submit" class="submit">
+		</form>
+	</div>
+</section>

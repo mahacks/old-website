@@ -221,6 +221,96 @@ section h1:hover:after, .gradient-underline:hover:after {
 h2 { font: bold 1.9rem/120% Muli, Helvetica, Arial, sans-serif }
 h3 { font: bold 1.5rem/120% Muli, Helvetica, Arial, sans-serif }
 
+/* ----------------------------- FORM ----------------------------- */
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 48rem;
+}
+
+.form {
+	padding: 1rem;
+	margin: 2rem auto 0;
+	background-color: white;
+	text-align: left;
+}
+
+.form .field {
+	margin-bottom: .5rem;
+}
+
+.form .sectionTitle {
+	margin: 0;
+}
+
+.form .sectionByline {
+	margin: 0;
+	margin-bottom: .5rem;
+}
+
+.form .fieldName {
+	padding: 0;
+	margin: 0;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.form .fieldInput {
+	height: 2.5rem;
+	width: 100%;
+	font-size: 1rem;
+    padding: .5rem;
+    border-width: .0125rem;
+    border-color: #BEBEBE;
+    border-style: solid;
+}
+
+.form .thickerBorder {
+	border-width: .05rem;
+    border-color: #BEBEBE;
+    border-style: solid;
+
+}
+
+.form .fieldInput:focus {
+	border-style: solid;
+    border-width: .125rem;
+    border-image-source: linear-gradient(#5cc2d6, #985cd6, #361b59);
+    border-image-slice: 1;
+    outline: none;
+}
+
+.form .fieldGrid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: .5rem;
+}
+
+.form .submit {
+    padding: .5rem 1rem;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.25rem;
+    text-decoration: none;
+    background-color: #33C3F0;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: .15s;
+    border-width: 0;
+}
+
+.form .submit:hover {
+	background-color: #1EAEDB;
+}
+
+.form .space {
+	margin-top: 1rem;
+}
+
+.form .space-bottom {
+	margin-bottom: .5rem;
+}
+
 /* ----------------------------- CONTAINER STYLE MODIFICATIONS ----------------------------- */
 .headline {
 	background: #fff;
