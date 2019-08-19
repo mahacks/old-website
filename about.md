@@ -99,6 +99,8 @@ Jocelyn is a rising sophomore from Andover, MA. She is especially eager about ma
 </div>
 </div>
 
+
+<div class="alumni">
 ## Alumni
 
 - Justin Yu
@@ -113,6 +115,8 @@ Jocelyn is a rising sophomore from Andover, MA. She is especially eager about ma
 - Rebekah Agwunobi
 - Aadhya Puttur
 - Nina Zhang
+
+</div>
 
 
 

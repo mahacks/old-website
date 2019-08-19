@@ -312,17 +312,24 @@ h3 { font: bold 1.5rem/120% Muli, Helvetica, Arial, sans-serif }
 }
 
 
-/* ----------------------------- BIO ----------------------------- */
+/* ----------------------------- ABOUT ----------------------------- */
 .bio {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	p {
 		margin: 0;
+		overflow: hidden;
 	}
 	p img {
-		width: 24rem;
-		height: 24rem;
+		width: 100%;
 	}
+
+	p img:after {
+		content: "";
+		display: block;
+		padding-bottom: 100%;
+	}
+
 	margin-bottom: .5rem;
 }
 
@@ -333,6 +340,13 @@ h3 { font: bold 1.5rem/120% Muli, Helvetica, Arial, sans-serif }
 	}
 	h3 + p {
 		margin-bottom: .5em;
+	}
+}
+
+.alumni {
+	li {
+		font-size: 1.25em;
+		margin-bottom: .125rem;
 	}
 }
 
@@ -395,4 +409,12 @@ footer {
 	#nav-links li { display: block }
 	#nav-links li a { padding: 1rem 0 0; }
 	svg { transform: scale(1) }
+	.bio {
+		grid-template-columns: unset;
+		grid-template-rows: 1fr auto;
+		margin-bottom: 1rem;
+		.bio--info {
+			padding-left: 0;
+		}
+	}
 }
