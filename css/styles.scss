@@ -311,6 +311,31 @@ h3 { font: bold 1.5rem/120% Muli, Helvetica, Arial, sans-serif }
 	margin-bottom: .5rem;
 }
 
+
+/* ----------------------------- BIO ----------------------------- */
+.bio {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	p {
+		margin: 0;
+	}
+	p img {
+		width: 24rem;
+		height: 24rem;
+	}
+	margin-bottom: .5rem;
+}
+
+.bio--info {
+	padding-left: 2rem;
+	h3 {
+		margin: 0;
+	}
+	h3 + p {
+		margin-bottom: .5em;
+	}
+}
+
 /* ----------------------------- CONTAINER STYLE MODIFICATIONS ----------------------------- */
 .headline {
 	background: #fff;

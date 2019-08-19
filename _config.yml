@@ -23,8 +23,8 @@ links:
     url: /#sponsors
 
 # homepage images
-home_img1_url: /1.jpg
-home_img2_url: /2.jpg
+home_img1_url: /images/1.jpg
+home_img2_url: /images/2.jpg
 
 # social media
 social_media:
