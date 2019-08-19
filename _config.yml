@@ -58,6 +58,3 @@ sponsors:
   - name: Ubisoft
     link: https://www.ubisoft.com/en-us
     logo_relative_url: /ubisoft.png
-
-plugins:
-  - jekyll-minifier
