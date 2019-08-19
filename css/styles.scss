@@ -233,82 +233,83 @@ h3 { font: bold 1.5rem/120% Muli, Helvetica, Arial, sans-serif }
 	margin: 2rem auto 0;
 	background-color: white;
 	text-align: left;
-}
 
-.form .field {
-	margin-bottom: .5rem;
-}
 
-.form .sectionTitle {
-	margin: 0;
-}
+	.field {
+		margin-bottom: .5rem;
+	}
 
-.form .sectionByline {
-	margin: 0;
-	margin-bottom: .5rem;
-}
+	.sectionTitle {
+		margin: 0;
+	}
 
-.form .fieldName {
-	padding: 0;
-	margin: 0;
-	font-size: 1rem;
-	font-weight: bold;
-}
+	.sectionByline {
+		margin: 0;
+		margin-bottom: .5rem;
+	}
 
-.form .fieldInput {
-	height: 2.5rem;
-	width: 100%;
-	font-size: 1rem;
-    padding: .5rem;
-    border-width: .0125rem;
-    border-color: #BEBEBE;
-    border-style: solid;
-}
+	.fieldName {
+		padding: 0;
+		margin: 0;
+		font-size: 1rem;
+		font-weight: bold;
+	}
 
-.form .thickerBorder {
-	border-width: .05rem;
-    border-color: #BEBEBE;
-    border-style: solid;
+	.fieldInput {
+		height: 2.5rem;
+		width: 100%;
+		font-size: 1rem;
+	    padding: .5rem;
+	    border-width: .0125rem;
+	    border-color: #BEBEBE;
+	    border-style: solid;
+	}
 
-}
+	.thickerBorder {
+		border-width: .05rem;
+	    border-color: #BEBEBE;
+	    border-style: solid;
 
-.form .fieldInput:focus {
-	border-style: solid;
-    border-width: .125rem;
-    border-image-source: linear-gradient(#5cc2d6, #985cd6, #361b59);
-    border-image-slice: 1;
-    outline: none;
-}
+	}
 
-.form .fieldGrid {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-gap: .5rem;
-}
+	.fieldInput:focus {
+		border-style: solid;
+	    border-width: .125rem;
+	    border-image-source: linear-gradient(#5cc2d6, #985cd6, #361b59);
+	    border-image-slice: 1;
+	    outline: none;
+	}
 
-.form .submit {
-    padding: .5rem 1rem;
-    color: #ffffff;
-    text-align: center;
-    font-size: 1.25rem;
-    text-decoration: none;
-    background-color: #33C3F0;
-    cursor: pointer;
-    box-sizing: border-box;
-    transition: .15s;
-    border-width: 0;
-}
+	.fieldGrid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: .5rem;
+	}
 
-.form .submit:hover {
-	background-color: #1EAEDB;
-}
+	.submit {
+	    padding: .5rem 1rem;
+	    color: #ffffff;
+	    text-align: center;
+	    font-size: 1.25rem;
+	    text-decoration: none;
+	    background-color: #33C3F0;
+	    cursor: pointer;
+	    box-sizing: border-box;
+	    transition: .15s;
+	    border-width: 0;
+	}
 
-.form .space {
-	margin-top: 1rem;
-}
+	.submit:hover {
+		background-color: #1EAEDB;
+	}
 
-.form .space-bottom {
-	margin-bottom: .5rem;
+	.space {
+		margin-top: 1rem;
+	}
+
+	.space-bottom {
+		margin-bottom: .5rem;
+	}
 }
 
 
