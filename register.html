@@ -1,6 +1,11 @@
 ---
 title: Register
 layout: barebones
+require_js:
+- jquery-slim
+- jquery-validation
+- axios
+- main
 ---
 <section>
 	<div class="container">
@@ -9,35 +14,36 @@ layout: barebones
 			<p style="margin: 0; color: white">Coming to MAHacks is free, including meals and swag. See you then!</p>
 		</div>
 
-		<form action="https://api.mahacks.com/signup" class="form">
+		<form class="form" id="register-form">
 			<h3 class="sectionTitle">Hacker Information</h3>
 			<p class="sectionByline">We can't wait to learn more about you.</p>
 
 			<div class="fieldGrid">
 				<div class="field">
 					<p class="fieldName">First Name</p>
-					<input class="fieldInput" type="text" name="firstName" placeholder="Ginny">
+					<input class="fieldInput" type="text" name="firstName" placeholder="Ginny" required>
 				</div>
 
 				<div class="field">
 					<p class="fieldName">Last Name</p>
-					<input class="fieldInput" type="text" name="lastName" placeholder="Smith">
+					<input class="fieldInput" type="text" name="lastName" placeholder="Smith" required>
 				</div>
 
 				<div class="field">
 					<p class="fieldName">Email</p>
-					<input class="fieldInput" type="text" name="email" placeholder="gsmith@gmail.com">
+					<input class="fieldInput" type="email" name="email" placeholder="gsmith@gmail.com" required>
 				</div>
 
 				<div class="field">
 					<p class="fieldName">Phone Number</p>
-					<input class="fieldInput" type="text" name="phone" placeholder="+1-508-123-4567">
+					<input class="fieldInput" type="tel" name="phone" placeholder="+1-508-123-4567" required>
 				</div>
 			</div>
 
 			<div class="field">
 				<p class="fieldName">Pronouns</p>
-				<select name="pronouns" class="fieldInput thickerBorder">
+				<select name="pronouns" class="fieldInput thickerBorder" required>
+					<option value default>Select pronouns</option>
 					<option value="he">he/him</option>
 					<option value="she">she/her</option>
 					<option value="they">they/them</option>
@@ -48,11 +54,12 @@ layout: barebones
 			<div class="fieldGrid">
 				<div class="field">
 					<p class="fieldName">School</p>
-					<input class="fieldInput" type="text" name="school" placeholder="Hacking High School">
+					<input class="fieldInput" type="text" name="school" placeholder="Hacking High School" required>
 				</div>
 				<div class="field">
 					<p class="fieldName">Grade</p>
-					<select name="grade" class="fieldInput thickerBorder">
+					<select name="grade" class="fieldInput thickerBorder" required>
+						<option value default>Select grade</option>
 						<option value="9">9th (Class of 2023)</option>
 						<option value="10">10th (Class of 2022)</option>
 						<option value="11">11th (Class of 2021)</option>
@@ -63,7 +70,8 @@ layout: barebones
 
 			<div class="field">
 				<p class="fieldName">T-Shirt Size</p>
-				<select name="tshirt" class="fieldInput thickerBorder">
+				<select name="tshirt" class="fieldInput thickerBorder" required>
+					<option value default>Select t-shirt size</option>
 					<option value="s">S</option>
 					<option value="m">M</option>
 					<option value="l">L</option>
@@ -74,7 +82,7 @@ layout: barebones
 
 			<div class="field">
 				<p class="fieldName">Dietary Restrictions</p>
-				<input class="fieldInput" type="text" name="diet" placeholder="I can only eat dinosaur eggs!">
+				<input class="fieldInput" type="text" name="diet" placeholder="I can only eat dinosaur eggs!" required>
 			</div>
 
 			<h3 class="sectionTitle space">Parent Information</h3>
@@ -82,17 +90,17 @@ layout: barebones
 
 			<div class="field">
 				<p class="fieldName">Parent Name</p>
-				<input class="fieldInput" type="text" name="parentName" placeholder="Gloria Smith">
+				<input class="fieldInput" type="text" name="parentName" placeholder="Gloria Smith" required>
 			</div>
 
 			<div class="fieldGrid">
 				<div class="field">
 					<p class="fieldName">Parent Email</p>
-					<input class="fieldInput" type="text" name="parentEmail" placeholder="gsmith@gmail.com">
+					<input class="fieldInput" type="email" name="parentEmail" placeholder="gsmith@gmail.com" required>
 				</div>
 				<div class="field">
 					<p class="fieldName">Parent Phone Number</p>
-					<input class="fieldInput" type="text" name="parentPhone" placeholder="+1-508-123-4567">
+					<input class="fieldInput" type="tel" name="parentPhone" placeholder="+1-508-123-4567" required>
 				</div>
 			</div>
 
