@@ -123,4 +123,4 @@ Jocelyn is a rising sophomore from Andover, MA. She is especially eager about ma
 
 ## About the Website
 
-Social media icons are from [flaticon.com](http://flaticon.com) and licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/).
+Social media icons are from [flaticon.com](http://flaticon.com) and licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/) uwu.
