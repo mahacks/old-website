@@ -16,6 +16,8 @@ include:
 
 # homepage links
 links:
+  - name: Register
+    url: /register
   - name: About
     url: /about
   - name: Past Events
