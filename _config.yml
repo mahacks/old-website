@@ -54,12 +54,12 @@ sponsors:
   - name: Flywire
     link: https://www.flywire.com/
     logo_relative_url: /flywire.png
-  - name: Privitar
-    link: https://www.privitar.com/
-    logo_relative_url: /privitar.jpg
   - name: Toast
     link: https://pos.toasttab.com
     logo_relative_url: /toast.png
+  - name: Privitar
+    link: https://www.privitar.com/
+    logo_relative_url: /privitar.jpg
   - name: Repl.it
     link: https://repl.it
     logo_relative_url: /replit.png
