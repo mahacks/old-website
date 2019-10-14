@@ -54,6 +54,9 @@ sponsors:
   - name: Flywire
     link: https://www.flywire.com/
     logo_relative_url: /flywire.png
+  - name: Rapid7
+    link: https://www.rapid7.com
+    logo_relative_url: /rapid7.png
   - name: Toast
     link: https://pos.toasttab.com
     logo_relative_url: /toast.png
