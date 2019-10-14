@@ -57,6 +57,9 @@ sponsors:
   - name: Privitar
     link: https://www.privitar.com/
     logo_relative_url: /privitar.jpg
+  - name: Toast
+    link: https://pos.toasttab.com
+    logo_relative_url: /toast.png
   - name: Ubisoft
     link: https://www.ubisoft.com/en-us
     logo_relative_url: /ubisoft.png
