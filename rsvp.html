@@ -1,0 +1,57 @@
+---
+title: RSVP
+layout: barebones
+require_js:
+- jquery-slim
+- axios
+- main
+---
+<section>
+	<div class="container">
+		<div class="centered">
+			<h1 style="color: white;">RSVP for MAHacks</h1>
+			<p style="margin: 0; color: white">We're really excited to see you on October 26th. Confirm your attendance and pick your Panera meal below.</p>
+		</div>
+
+		<form class="form" id="rsvp-form">
+			<h3 class="sectionTitle">RSVP</h3>
+			<p class="sectionByline">Do you PROMISE to come to MAHacks on Oct. 26th?</p>
+
+			<div class="field">
+				<p class="fieldName">I PROMISE to come to MAHacks on Oct. 26th</p>
+				<input type="hidden" name="agree" value="false"><input type="checkbox" onclick="this.previousSibling.value=1-this.previousSibling.value">
+
+			</div>
+
+			<h3 class="sectionTitle">Pick your food</h3>
+			<p class="sectionByline">We're purchasing Panera for all attendees & you get to pick your meal! Each sandwich comes with a pickle, chips, and a cookie. Each salad comes with a piece of baguette & a cookie.</p>
+
+			<div class="fieldGrid">
+				<div class="field">
+					<p class="fieldName">Your meal</p>
+					<select name="meal" class="fieldInput thickerBorder" required>
+						<option value default>Select meal</option>
+						<option value="btb">Bacon Turkey Bravo Sandwich</option>
+						<option value="nacss">Napa Almond Chicken Salad Sandwich</option>
+						<option value="mvs">Mediterranean Veggie Sandwich</option>
+						<option value="tss">Tuna Salad Sandwich</option>
+						<option value="ts">Turkey (w Mayo & Spicy Mustard on side) Sandwich</option>
+						<option value="sts">Sierra Turkey Sandwich</option>
+						<option value="hhs">Heritage Ham & Swiss sandwich</option>
+
+						<option value="mgq">Modern Greek w Quinoa Salad</option>
+						<option value="asc">Asian Sesame w Chicken Salad</option>
+						<option value="fac">Fuji Apple w Chicken Salad</option>
+						<option value="cwc">Caesar w Chicken Salad</option>
+						<option value="stc">Spicy Thai w Chicken Salad</option>
+						<option value="c">Caesar Salad</option>
+						<option value="sc">Seasonal Greens Salad</option>
+						<option value="g">Greek Salad</option>
+					</select>
+				</div>
+			</div>
+			 <input type="hidden" id="email" name="email" value="none">
+			<input type="submit" value="Submit" class="submit">
+		</form>
+	</div>
+</section>
