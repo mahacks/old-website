@@ -5,7 +5,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-h1,h2,h3,h4,p,li,a,span { font-family: Muli, Helvetica, Arial, sans-serif }
+h1,h2,h3,h4,h5,p,li,a,span { font-family: Muli, Helvetica, Arial, sans-serif }
 body { background: linear-gradient(#06030a, #361b59) fixed }
 header, footer { text-align: center }
 
@@ -70,7 +70,10 @@ header h4 {
 	font-size: 1.5rem;
 	margin-top: 2.0rem;
 }
-
+header h5 {
+	font-size: 2.0rem;
+	margin-top: 2.0rem;
+}
 /* ----------------------------- BUTTON-LIKE THINGS  ----------------------------- */
 .button {
   display: inline-block;
