@@ -1,0 +1,198 @@
+---
+title: Live
+layout: nothing
+---
+
+<html>
+	<head>
+		<title>MAHacks Live</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900"
+			rel="stylesheet"
+		/>
+		<link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<style>
+			* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+			h1,
+			h2,
+			h3,
+			p,
+			li,
+			tr,
+			td,
+			a,
+			span {
+				font-family: Muli, Helvetica, Arial, sans-serif;
+				color: white;
+			}
+			body {
+				background: linear-gradient(#06030a, #361b59) fixed;
+			}
+
+			.gradient-underline {
+				position: relative;
+				z-index: 1;
+				display: inline-block;
+				font-weight: 900;
+				font-size: 2.5rem;
+				letter-spacing: -0.5px;
+				line-height: 100%;
+				color: white;
+			}
+
+			.gradient-underline:after {
+				content: '';
+				display: block;
+				position: relative;
+				top: 0;
+				width: 100%;
+				height: 0.2em;
+				background: linear-gradient(to left, #5cc2d6, #985cd6);
+				z-index: -1;
+				transition: 0.15s;
+			}
+
+			.gradient-underline:hover:after {
+				height: 0.5em;
+				top: -0.3em; /* difference btwn initial and final underline thickness */
+				margin-bottom: -0.3em; /* difference btwn initial and final underline thickness */
+			}
+
+			.container {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				max-width: 48rem;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 4rem;
+				margin-bottom: 4rem;
+			}
+
+			.center {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+			}
+
+			.grid {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				width: 100%;
+				grid-gap: 1rem;
+			}
+
+			.right-grid {
+				display: grid;
+				grid-template-rows: repeat(3, 1fr);
+				grid-gap: 1.5rem;
+			}
+
+			table {
+				color: white;
+			}
+
+			th,
+			td {
+				padding: 0.25rem;
+			}
+
+			table {
+				border-collapse: collapse;
+				width: 100%;
+			}
+
+			tr:nth-child(even) {
+				background-color: #985cd6;
+			}
+
+			.big-button {
+				display: block;
+				width: 8rem;
+				line-height: 3rem;
+				background-color: #985cd6;
+				font-weight: bold;
+				border-radius: 10px;
+			}
+
+			@media (min-width: 320px) and (max-width: 480px) {
+  				.grid {
+  					grid-template-columns: unset;
+  				}
+
+  				.right-grid {
+  					grid-gap: 1rem;
+  				}
+
+  				.item {
+  					padding: 1rem;
+  				}
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="gradient-underline mb3">MAHacks Live</h1>
+			<div class="grid">
+				<div class="center">
+					<h1 class="mb1">Schedule</h1>
+					<div class="schedule">
+						<table>
+							<tr>
+								<th>Day</th>
+								<th>Time</th>
+								<th>Name</th>
+							</tr>
+							{% include schedule_item.html day="Saturday" time_start="11:00 AM" time_end="12:30 PM" name="Check-in begins" %}
+							{% include schedule_item.html day="Saturday" time_start="12:30 PM" time_end="1:00 PM" name="Opening ceremony begins" %}
+							{% include schedule_item.html day="Saturday" time_start="1:00 PM" time_end="2:00 PM" name="Team + Idea Formation; Hacking Begins" %}
+							{% include schedule_item.html day="Saturday" time_start="2:00 PM"  time_end="3:30 PM" name="Intro to programming workshop" %}
+							{% include schedule_item.html day="Saturday" time_start="3:00 PM"  time_end="3:30 PM" name="Intro to Design w iZotope" %}
+							{% include schedule_item.html day="Saturday" time_start="4:00 PM"  time_end="4:30 PM" name="Woman-in-STEM panel" %}
+							{% include schedule_item.html day="Saturday" time_start="6:00 PM"  time_end="7:00 PM" name="Dinner" %}
+							{% include schedule_item.html day="Saturday" time_start="7:00 PM"  time_end="8:00 PM" name="Intro to Sound Design w iZotop" %}
+							{% include schedule_item.html day="Saturday" time_start="9:00 PM"  time_end="9:00 PM" name="Sleeping area opens" %}
+							{% include schedule_item.html day="Saturday" time_start="10:00 PM"  time_end="10:30 PM" name="Become an MAHacks Organizer workshop" %}
+							{% include schedule_item.html day="Sunday" time_start="12:00 AM"  time_end="1:00 AM" name="Midnight snack" %}
+							{% include schedule_item.html day="Sunday" time_start="7:00 AM"  time_end="8:00 AM" name="Submissions due" %}
+							{% include schedule_item.html day="Sunday" time_start="8:30 AM"  time_end="10:00 AM" name="Judging" %}{% include schedule_item.html day="Sunday" time_start="11:00 AM"  time_end="11:30 AM" name="Closing ceremony" %}
+						</table>
+					</div>
+				</div>
+				<div class="other-info">
+					<div class="right-grid">
+						<div class="center item">
+							<h2>Slack</h2>
+							<p class="mb2">Talk to your fellow hackers!</p>
+							<a href="https://mahacks.com/slack" class="big-button">Join Slack</a>
+						</div>
+						<div class="center item">
+							<h2>Food</h2>
+							<p class="mb2">Gotta eat, gotta eat, gotta....</p>
+							<p class="h3">Be sure to keep Slack open so we can notify you when it's your turn to eat! We'll be calling people up in groups.<br><br> Snacks are available throughout the entire event.</p>
+						</div>
+						<div class="center item">
+							<h2>Mentors</h2>
+							<p class="mb2">Need some assistance here, ya dig.</p>
+							<p class="h3">Use the #findamentor channel on Slack to ask a mentor to come to you.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			setTimeout(() => {
+				location.reload()
+			},(5*60000)) // in minutes
+		</script>
+	</body>
+</html>
